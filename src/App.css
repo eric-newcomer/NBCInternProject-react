@@ -80,7 +80,7 @@ h3 {
 
 .Overview {
   font-family: "sharpSans-Bold";
-  min-height: 80vh;
+  min-height: 50vh;
   width: 100%;
   text-align: left;
   margin-left: 12vh;
@@ -95,6 +95,15 @@ h3 {
 .Overview button {
   margin-top: 5vh;
 }
+.apply {
+  font-size: 20px;
+}
+.option {
+  text-align: center;
+  display: flex;
+  align-content: center !important;
+}
+
 
 /* NAVBAR */
 .Navbar {
