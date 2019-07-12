@@ -78,12 +78,19 @@ h3 {
 
 /* OVERVIEW */
 
-.Overview {
+.Overview1 {
   font-family: "sharpSans-Bold";
   min-height: 50vh;
   width: 100%;
   text-align: left;
   margin-left: 12vh;
+}
+
+.Overview2 {
+  font-family: "sharpSans-Bold";
+  min-height: 50vh;
+  width: 100%;
+  text-align: center;
 }
 
 .Overview h1 {
@@ -99,10 +106,12 @@ h3 {
   font-size: 20px;
 }
 .option {
+  margin-top: 5vh;
   text-align: center;
   display: flex;
   align-content: center !important;
 }
+
 
 
 /* NAVBAR */
