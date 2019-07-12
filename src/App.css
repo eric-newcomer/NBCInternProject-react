@@ -18,16 +18,13 @@
   max-height: 100%;
   margin-top: 10vh; 
 }
-
 .slide-container {
   width: 70%;
   margin: auto; 
 }
-
 h3 {
   text-align: center; 
 }
-
 .each-slide > div {
   display: flex;
   align-items: center top;
@@ -37,27 +34,22 @@ h3 {
   background-position: center bottom;
 
 }
-
 .each-slide span {
   padding: 20px;
   font-size: 20px;
   background: #efefef;
   text-align: center;
 }
-
 .each-fade {
   display: flex;
 }
-
 .each-fade .image-container {
   width: 75%;
   overflow: hidden;
 }
-
 .each-fade .image-container img {
   width: 100%;
 }
-
 .each-fade h2 {
   width: 25%;
   display: flex;
@@ -66,7 +58,6 @@ h3 {
   margin: 0;
   background: #adceed;
 }
-
 .each-slide h1 {
   color: #896EB1;
   font-weight: bold !important;
@@ -75,9 +66,7 @@ h3 {
   font-family: "sharpSans-Bold";
 }
 
-
 /* OVERVIEW */
-
 .Overview {
   font-family: "sharpSans-Bold";
   min-height: 50vh;
@@ -105,12 +94,25 @@ h3 {
 }
 
 /* CLICKABLE */
-
 .Clickable {
   font-family: "sharpSans-Bold";
   min-height: 50vh;
   width: 100%;
   text-align: center;
+}
+
+/* MTInfo */
+.MTInfo {
+  margin-top: 10vh;
+  background-color: rgb(180, 180, 180);
+  min-height: 100vh;
+}
+
+/* APInfo */
+.APInfo {
+  margin-top: 10vh;
+  background-color: rgb(180, 180, 180);
+  min-height: 100vh;
 }
 
 /* NAVBAR */
@@ -125,13 +127,11 @@ h3 {
   display: flex;
   align-items: center;
 }
-
 .Navbar-brand {
   margin-right: 0;
   padding-left: 40px !important;
   padding-top: 0.5125rem;
 }
-
 .Navbar-brand img {
   width: 250px;
   display: inline-block !important;

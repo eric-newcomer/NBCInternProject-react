@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Overview from './Overview';
+import MTInfo from './MTInfo';
+import APInfo from './APInfo';
 
 class Clickable extends Component {
     constructor(props) {
@@ -21,12 +22,12 @@ class Clickable extends Component {
             <div className="Clickable">
                 <Container className="justify-content-md-center">
                     <Row>
-                        <Col><button className="btn" onClick={this.mtButton}><h3>Media Tech Program</h3></button></Col>
+                        <Col><button className="btn active" onClick={this.mtButton} active><h3>Media Tech Program</h3></button></Col>
                         <Col><button className="btn" onClick={this.apButton}><h3>Associate's Program</h3></button></Col>
                     </Row>
                 </Container>
-                {this.state.showMT ? <Overview/> : null}
-                {this.state.showAP ? <h1>Show Me2</h1> : null}
+                {this.state.showMT ? <MTInfo/> : null}
+                {this.state.showAP ? <APInfo/> : null}
             </div>
         );
     }
