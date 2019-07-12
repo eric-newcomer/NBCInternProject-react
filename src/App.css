@@ -78,21 +78,13 @@ h3 {
 
 /* OVERVIEW */
 
-.Overview1 {
+.Overview {
   font-family: "sharpSans-Bold";
   min-height: 50vh;
   width: 100%;
   text-align: left;
   margin-left: 12vh;
 }
-
-.Overview2 {
-  font-family: "sharpSans-Bold";
-  min-height: 50vh;
-  width: 100%;
-  text-align: center;
-}
-
 .Overview h1 {
   margin-top: 20vh;
 }
@@ -112,7 +104,14 @@ h3 {
   align-content: center !important;
 }
 
+/* CLICKABLE */
 
+.Clickable {
+  font-family: "sharpSans-Bold";
+  min-height: 50vh;
+  width: 100%;
+  text-align: center;
+}
 
 /* NAVBAR */
 .Navbar {
