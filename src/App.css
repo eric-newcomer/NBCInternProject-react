@@ -64,6 +64,7 @@ h3 {
   font-size: 90px;
   line-height: 1;
   font-family: "sharpSans-Bold";
+  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
 
 /* OVERVIEW */

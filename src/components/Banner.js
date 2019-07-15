@@ -29,14 +29,17 @@ const Slideshow = () => {
     <Slide {...properties}>
         <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
+                <h1 className="Banner">Here you can.</h1>
             </div>
-            </div>
-            <div className="each-slide">
+        </div>
+        <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
+                <h1 className="Banner">Here you can.</h1>
             </div>
-            </div>
-            <div className="each-slide">
+        </div>
+        <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[3]})`}}>
+                <h1 className="Banner">Here you can.</h1>
             </div>
         </div>
     </Slide>
