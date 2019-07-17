@@ -7,7 +7,7 @@ class Overview extends Component {
                     <h1>Media Tech Program Overview</h1>
                     <p>This will be a description of the Media Tech Program. lorem ipsum dolor blah blah blah</p>
                     <button className="btn apply" href="/" >
-                        Apply Now <i class="material-icons">arrow_forward</i>
+                        Apply Now <i className="far fa-arrow-right"></i>
                     </button>
             </div>      
         );

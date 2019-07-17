@@ -8,30 +8,26 @@ import "react-tabs/style/react-tabs.css";
 class Clickable extends Component {
     constructor(props) {
         super(props);
-        this.programs = {
-            mt : { color: "SkyBlue"},
-            "Associate Program": { color: "#896EB1"}
-        }
         this.state =  {
-            mt: true,
-            "Associate Program": false,
+            mtColor: "#896EB1",
+            apColor: "#FFF",
         };
     }
     mtButton = () => {
-        this.setState( {mt: true, "Associate Program": false} );
+        this.setState( {mtColor: "#896EB1", apColor: "#FFF"} );
     }
     apButton = () => {
-        this.setState( {mt: false, "Associate Program": true} );
+        this.setState( {mtColor: "#FFF", apColor: "SkyBlue"} );
     }
     render() {
         return (
-            <div className="Clickable">
+            <div className="Clickable" >
                 <Tabs>
                     <TabList>
-                        <Tab style={{backgroundColor: 'SkyBlue'}}><h4>Media Tech Program</h4></Tab>
-                        <Tab><h4>Associate's Program</h4></Tab>
+                        <Tab onClick={this.mtButton} style={{backgroundColor: this.state.mtColor}}><h4>Media Tech Program</h4></Tab>
+                        <Tab onClick={this.apButton} style={{backgroundColor: this.state.apColor}}><h4>Associate's Program</h4></Tab>
                     </TabList>
-                    <TabPanel style={{backgroundColor: 'SkyBlue'}}>
+                    <TabPanel>
                         <h2>This is Media Tech Program Information</h2>
                     </TabPanel>
                     <TabPanel>

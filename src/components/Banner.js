@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import { Slide, Fade, Zoom } from 'react-slideshow-image';
+import { Slide, Fade } from 'react-slideshow-image';
 import logo_tagline from '../images/NBCU_Logo_Tagline.svg'
-import makeCarousel from 'react-reveal/makeCarousel';
-//import Slide from 'react-reveal/Slide';
-import styled, { css } from 'styled-components';
 
 
 const fadeImages = [
