@@ -21,7 +21,7 @@ class Clickable extends Component {
     }
     render() {
         return (
-            <div className="Clickable" >
+            <div className="Clickable">
                 <Tabs>
                     <TabList>
                         <Tab onClick={this.mtButton} style={{backgroundColor: this.state.mtColor}}><h4>Media Tech Program</h4></Tab>
