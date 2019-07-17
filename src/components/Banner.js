@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Slide, Fade } from 'react-slideshow-image';
+import { Slide, Fade, Zoom } from 'react-slideshow-image';
 import logo_tagline from '../images/NBCU_Logo_Tagline.svg'
 import makeCarousel from 'react-reveal/makeCarousel';
 //import Slide from 'react-reveal/Slide';
@@ -28,17 +28,59 @@ const Slideshow = () => {
         <Fade {...fadeProperties}>
             <div className="each-fade" >
                 <div style={{'backgroundImage': `url(${fadeImages[0]})`}}>
-                    <h1 className="Banner">Here you can.</h1>
+                    <div className="Banner">
+                        <h1>Here you can.</h1>
+                        <div className="search-form-wrapper">
+                            <form action="/find-a-job" method="get">
+                                <div className="search-form">
+                                    <i className="far fa-search"></i>
+                                    <input name="keyword" className="input-search" autocomplete="off" placeholder="Search jobs by keyword" />
+                                    <i className="far fa-arrow-right"></i>
+                                </div>
+                            </form>
+                        </div>
+                        <div className="field field--name-field-banner-logo-small field--type-image field--label-hidden field__item"> 
+                           <img width="" height="" src={logo_tagline} alt="NBCU_Logo_Tagline" typeof="foaf:Image" />
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="each-fade" >
                 <div style={{'backgroundImage': `url(${fadeImages[1]})`}}>
-                    <h1 className="Banner">Here you can.</h1>
+                    <div className="Banner">
+                        <h1>Here you can.</h1>
+                        <div className="search-form-wrapper">
+                            <form action="/find-a-job" method="get">
+                                <div className="search-form">
+                                    <i className="far fa-search"></i>
+                                    <input name="keyword" className="input-search" autocomplete="off" placeholder="Search jobs by keyword" />
+                                    <i className="far fa-arrow-right"></i>
+                                </div>
+                            </form>
+                        </div>
+                        <div className="field field--name-field-banner-logo-small field--type-image field--label-hidden field__item"> 
+                            <img width="" height="" src={logo_tagline} alt="NBCU_Logo_Tagline" typeof="foaf:Image" />
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="each-fade" >
                 <div style={{'backgroundImage': `url(${fadeImages[2]})`}}>
-                    <h1 className="Banner">Here you can.</h1>
+                    <div className="Banner">
+                        <h1>Here you can.</h1>
+                        <div className="search-form-wrapper">
+                            <form action="/find-a-job" method="get">
+                                <div className="search-form">
+                                    <i className="far fa-search"></i>
+                                    <input name="keyword" className="input-search" autocomplete="off" placeholder="Search jobs by keyword" />
+                                    <i className="far fa-arrow-right"></i>
+                                </div>
+                            </form>
+                        </div>
+                        <div className="field field--name-field-banner-logo-small field--type-image field--label-hidden field__item"> 
+                            <img width="" height="" src={logo_tagline} alt="NBCU_Logo_Tagline" typeof="foaf:Image" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </Fade>

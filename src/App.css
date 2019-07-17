@@ -17,6 +17,18 @@
   max-width: 100%;
   max-height: 100%;
   margin-top: 10vh; 
+  margin-right: 90vh;
+
+}
+.input-search {
+  width: 100% !important;
+}
+.fa-arrow-right {
+  right: 2vh !important;
+}
+.featured-top .search-form-wrapper {
+  width: 56%;
+  align-content: center;
 }
 .slide-container {
   width: 100%;
@@ -30,9 +42,8 @@ h3 {
   align-items: center top;
   justify-content: center;
   background-size: cover;
-  height: 100vh;
-  background-position: center bottom;
-
+  height: 70vh;
+  background-position: center;
 }
 .each-fade span {
   padding: 20px;
