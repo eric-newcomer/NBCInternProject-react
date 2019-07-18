@@ -30,9 +30,14 @@ class Clickable extends Component {
                             <div className="MediaTechInfo">
                                 <Container>
                                     <Row>
-                                        <Col> {/* LEFT COLUMN */}
+                                        <Col> {/* LEFT COLUMN */} 
                                             <h2>Internships</h2>
+                                            <br/>
+                                            <h4><a href="#Experiences">Experiences</a></h4> {/* TODO: ADD SCROLL TO COMPONENT FUNCTIONALITY */}
+                                            <h4><a href="#OurBrands">Our Brands</a></h4>
+                                            <h4><a href="#FAQs">FAQs</a></h4>
                                         </Col>
+                                        <div className="border-mt"></div>
                                         <Col> {/* RIGHT COLUMN */}
                                             <p>The NBCUniversal Internship Program is an experience like no other. We offer a diverse range of internships that provide a unique experience across our iconic portfolio of brands. Through unparalleled access to the best in the business, hands-on training and one-of-a-kind networking events, our interns have the chance to influence change. Our interns are ambitious, innovative and savvy. They shape the way we do things. Here you can contribute as content creators, problem solvers & innovators. Here you can learn the power and possibilities of media and technology. Here you can go far.</p>
                                             <p><b>Fall Internships:</b> September - December (applications open in March)</p>
@@ -49,9 +54,14 @@ class Clickable extends Component {
                             <div className="AssociateInfo">
                                 <Container>
                                     <Row>
-                                        <Col> {/* LEFT COLUMN */}
+                                    <Col> {/* LEFT COLUMN */} 
                                             <h2>Associate's Program</h2>
+                                            <br/>
+                                            <h4><a href="#Experiences">Experiences</a></h4> {/* TODO: ADD SCROLL TO COMPONENT FUNCTIONALITY */}
+                                            <h4><a href="#OurBrands">Our Brands</a></h4>
+                                            <h4><a href="#FAQs">FAQs</a></h4>
                                         </Col>
+                                        <div className="border-ap"></div>
                                         <Col> {/* RIGHT COLUMN */}
                                             <p>NBCUniversal's Media Tech Associate opportunities give early career technologists real world experience and exposure to one of the world’s leading media and entertainment companies! The Associate Program is a two year development program, which offers Associates the flexibility of rotating through 3 different business groups within Operations and Technology. These positions will promote technical breadth & depth through our technical certification programs, mentorship and networking opportunities to help you jump start your career.</p>
                                             <p><b>Fall Internships:</b> September - December (applications open in March)</p>
@@ -64,6 +74,7 @@ class Clickable extends Component {
                         </div>
                     </TabPanel>
                 </Tabs>
+                <hr />
             </div>
 
         );
