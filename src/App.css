@@ -18,7 +18,6 @@
   max-height: 100%;
   margin-top: 10vh; 
   margin-right: 90vh;
-
 }
 .input-search {
   width: 100% !important;
@@ -27,8 +26,9 @@
   right: 2vh !important;
 }
 .featured-top .search-form-wrapper {
-  width: 56%;
+  width: 100%;
   align-content: center;
+  margin-bottom: 20px;
 }
 .slide-container {
   width: 100%;
@@ -58,7 +58,7 @@ h3 {
 .each-fade .image-container img {
   width: 100%;
 }
-.each-fade h1 {
+.hereYouCan {
   color: #896EB1;
   font-weight: bold !important;
   font-size: 90px;
@@ -66,6 +66,15 @@ h3 {
   font-family: "sharpSans-Bold";
   text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
+.learnFromTheBest {
+  font-family: "sharpSans-Light";
+  font-size: 50px;
+  line-height: 1;
+  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+  margin-left: 0;
+  text-align: left;
+}
+
 .each-fade img {
   margin-top: 5vh;
   align-content: center !important;
@@ -84,10 +93,22 @@ h3 {
 }
 .Overview p {
   margin-top: 5vh;
+  font-size: 20px;
 }
 .Overview button {
   margin-top: 5vh;
 }
+.btn {
+  background-color: #32a2ce;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.6;
+  transition: 0.3s;  
+}
+.btn:hover {opacity: 1}
 .apply {
   font-size: 20px;
 }
@@ -106,6 +127,12 @@ h3 {
 }
 .Clickable h4 {
   text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+.Clickable h4:hover {
+  color: #32a2ce;
+  opacity: 1;
 }
 /* MTInfo */
 .MTInfo {

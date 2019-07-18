@@ -26,7 +26,8 @@ const Slideshow = () => {
             <div className="each-fade" >
                 <div style={{'backgroundImage': `url(${fadeImages[0]})`}}>
                     <div className="Banner">
-                        <h1>Here you can.</h1>
+                        <h1 className="hereYouCan">Here you can</h1>
+                        <h1 className="learnFromTheBest">learn from the best.</h1>
                         <div className="search-form-wrapper">
                             <form action="/find-a-job" method="get">
                                 <div className="search-form">
@@ -45,7 +46,8 @@ const Slideshow = () => {
             <div className="each-fade" >
                 <div style={{'backgroundImage': `url(${fadeImages[1]})`}}>
                     <div className="Banner">
-                        <h1>Here you can.</h1>
+                        <h1 className="hereYouCan">Here you can</h1>
+                        <h1 className="learnFromTheBest">learn from the best.</h1>
                         <div className="search-form-wrapper">
                             <form action="/find-a-job" method="get">
                                 <div className="search-form">
@@ -64,7 +66,8 @@ const Slideshow = () => {
             <div className="each-fade" >
                 <div style={{'backgroundImage': `url(${fadeImages[2]})`}}>
                     <div className="Banner">
-                        <h1>Here you can.</h1>
+                        <h1 className="hereYouCan">Here you can</h1>
+                        <h1 className="learnFromTheBest">learn from the best.</h1>
                         <div className="search-form-wrapper">
                             <form action="/find-a-job" method="get">
                                 <div className="search-form">
