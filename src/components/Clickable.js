@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import MTInfo from './MTInfo';
-import APInfo from './APInfo';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "react-tabs/style/react-tabs.css";
 
@@ -9,15 +7,15 @@ class Clickable extends Component {
     constructor(props) {
         super(props);
         this.state =  {
-            mtColor: "#896EB1",
+            mtColor: "SkyBlue",
             apColor: "#FFF",
         };
     }
     mtButton = () => {
-        this.setState( {mtColor: "#896EB1", apColor: "#FFF"} );
+        this.setState( {mtColor: "#87CEEB", apColor: "#FFF"} );
     }
     apButton = () => {
-        this.setState( {mtColor: "#FFF", apColor: "SkyBlue"} );
+        this.setState( {mtColor: "#FFF", apColor: "#99FF99"} );
     }
     render() {
         return (
@@ -28,20 +26,44 @@ class Clickable extends Component {
                         <Tab onClick={this.apButton} style={{backgroundColor: this.state.apColor}}><h4>Associate's Program</h4></Tab>
                     </TabList>
                     <TabPanel>
-                        <h2>This is Media Tech Program Information</h2>
+                        <div className="MTContainer">
+                            <div className="MediaTechInfo">
+                                <Container>
+                                    <Row>
+                                        <Col> {/* LEFT COLUMN */}
+                                            <h2>Internships</h2>
+                                        </Col>
+                                        <Col> {/* RIGHT COLUMN */}
+                                            <p>The NBCUniversal Internship Program is an experience like no other. We offer a diverse range of internships that provide a unique experience across our iconic portfolio of brands. Through unparalleled access to the best in the business, hands-on training and one-of-a-kind networking events, our interns have the chance to influence change. Our interns are ambitious, innovative and savvy. They shape the way we do things. Here you can contribute as content creators, problem solvers & innovators. Here you can learn the power and possibilities of media and technology. Here you can go far.</p>
+                                            <p><b>Fall Internships:</b> September - December (applications open in March)</p>
+                                            <p><b>Spring Internships:</b> January - May (applications open in July)</p>
+                                            <p><b>Summer Internships:</b> June - August (applications open in August)</p>
+                                        </Col>
+                                    </Row>
+                                </Container>
+                            </div>
+                        </div>
                     </TabPanel>
                     <TabPanel>
-                        <h2>This is Associate Program Information</h2>
+                        <div className="APContainer">
+                            <div className="AssociateInfo">
+                                <Container>
+                                    <Row>
+                                        <Col> {/* LEFT COLUMN */}
+                                            <h2>Associate's Program</h2>
+                                        </Col>
+                                        <Col> {/* RIGHT COLUMN */}
+                                            <p>NBCUniversal's Media Tech Associate opportunities give early career technologists real world experience and exposure to one of the world’s leading media and entertainment companies! The Associate Program is a two year development program, which offers Associates the flexibility of rotating through 3 different business groups within Operations and Technology. These positions will promote technical breadth & depth through our technical certification programs, mentorship and networking opportunities to help you jump start your career.</p>
+                                            <p><b>Fall Internships:</b> September - December (applications open in March)</p>
+                                            <p><b>Spring Internships:</b> January - May (applications open in July)</p>
+                                            <p><b>Summer Internships:</b> June - August (applications open in August)</p>
+                                        </Col>
+                                    </Row>
+                                </Container>
+                            </div>
+                        </div>
                     </TabPanel>
                 </Tabs>
-                {/* <Container className="justify-content-md-center">
-                    <Row>
-                        <Col><button className="btn active" onClick={this.mtButton} active><h3>Media Tech Program</h3></button></Col>
-                        <Col><button className="btn" onClick={this.apButton}><h3>Associate's Program</h3></button></Col>
-                    </Row>
-                </Container>
-                {this.state.showMT ? <MTInfo/> : null}
-                {this.state.showAP ? <APInfo/> : null} */}
             </div>
 
         );

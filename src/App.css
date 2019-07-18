@@ -80,13 +80,15 @@ h3 {
   align-content: center !important;
 }
 
+
 /* OVERVIEW */
 .Overview {
   font-family: "sharpSans-Bold";
   min-height: 40vh;
   width: 100%;
   text-align: left;
-  margin-left: 12vh;
+  margin-left: 22vh;
+  margin-bottom: 8vh;
 }
 .Overview h1 {
   margin-top: 10vh;
@@ -99,7 +101,7 @@ h3 {
   margin-top: 5vh;
 }
 .btn {
-  background-color: #32a2ce;
+  background-color: #896EB1;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -118,6 +120,7 @@ h3 {
   align-content: center !important;
 }
 
+
 /* CLICKABLE */
 .Clickable {
   font-family: "sharpSans-Bold";
@@ -131,22 +134,31 @@ h3 {
   transition: 0.3s;
 }
 .Clickable h4:hover {
-  color: #32a2ce;
+  color: #896EB1;
   opacity: 1;
 }
-/* MTInfo */
-.MTInfo {
-  margin-top: 10vh;
-  background-color: rgb(180, 180, 180);
-  min-height: 100vh;
+.MTContainer {
+  
+}
+.MediaTechInfo {
+  margin-top: 8vh;
+}
+.MediaTechInfo h2 {
+  text-shadow: -1px -1px 0 #87CEEB, 1px -1px 0 #87CEEB, -1px 1px 0 #87CEEB, 1px 1px 0 #87CEEB;
+}
+.MediaTechInfo p {
+  text-align: left;
+}
+.AssociateInfo {
+  margin-top: 8vh;
+}
+.AssociateInfo h2 {
+  text-shadow: -1px -1px 0 #99FF99, 1px -1px 0 #99FF99, -1px 1px 0 #99FF99, 1px 1px 0 #99FF99;
+}
+.AssociateInfo p {
+  text-align: left;
 }
 
-/* APInfo */
-.APInfo {
-  margin-top: 10vh;
-  background-color: rgb(180, 180, 180);
-  min-height: 100vh;
-}
 
 /* NAVBAR */
 .Navbar {
