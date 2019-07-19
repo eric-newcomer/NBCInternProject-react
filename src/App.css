@@ -78,7 +78,7 @@ h3 {
   min-height: 40vh;
   width: 100%;
   text-align: left;
-  margin-left: 22vh;
+  margin-left: 20vh;
   margin-bottom: 8vh;
 }
 .Overview h1 {
@@ -86,7 +86,9 @@ h3 {
 }
 .Overview p {
   margin-top: 5vh;
+  margin-right: 30vh;
   font-size: 20px;
+  margin-left: 0 !important;
 }
 .Overview button {
   margin-top: 5vh;
@@ -140,6 +142,7 @@ h3 {
 }
 .MediaTechInfo p {
   text-align: left;
+  margin-right: 10vh;
 }
 .AssociateInfo {
   margin-top: 8vh;
@@ -149,6 +152,7 @@ h3 {
 }
 .AssociateInfo p {
   text-align: left;
+  margin-right: 10vh;
 }
 .border-mt {
   background-color: #87CEEB;

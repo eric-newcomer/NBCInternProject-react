@@ -94,12 +94,14 @@ class APExperiences extends Component {
                             <h2>Hear From Our Associates</h2>
                             <br/>
                             <div id="intProjDesc">
-                                <h4>2019</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                <h4>2018</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                <h4>2017</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <h4>Marcie Tran, Software Development, Media Engineering – Englewood Cliffs, NJ</h4>
+                                <p>"Integrated machine learning APIs into existing post-production workflows to enable automated video and audio analysis, such as facial recognition and video transcription."</p>
+
+                                <h4>Tyler Schad, NOC Expansion, On-Air Operations-Englewood Cliffs, NJ</h4>
+                                <p>Expanded On-Air operational capacity and refreshed the Network Operation Center & communal employee spaces.</p>
+
+                                <h4>Third Associate</h4>
+                                <p>somethingggggggggggggggggggggggg</p>
                             </div>
                             </Col>
                     <div className="border-ap"></div>

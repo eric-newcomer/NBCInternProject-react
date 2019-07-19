@@ -41,7 +41,7 @@ class Clickable extends Component {
                                         </Col>
                                         <div className="border-mt"></div>
                                         <Col> {/* RIGHT COLUMN */}
-                                            <p>The NBCUniversal Internship Program is an experience like no other. We offer a diverse range of internships that provide a unique experience across our iconic portfolio of brands. Through unparalleled access to the best in the business, hands-on training and one-of-a-kind networking events, our interns have the chance to influence change. Our interns are ambitious, innovative and savvy. They shape the way we do things. Here you can contribute as content creators, problem solvers & innovators. Here you can learn the power and possibilities of media and technology. Here you can go far.</p>
+                                            <p>Here at NBCUniversal we constantly strive for innovation and discovery. To help us achieve these goals we are searching for talented technologists to be our MediaTech Interns. Our MediaTech program is a 10 week paid internship program which will expose interns to firsthand technical experiences within our vast Operations and Technology Department. Along with working on projects with employees and other interns, this program also serves as a direct line into our Associates Program.</p>
                                             <p><b>Fall Internships:</b> September - December (applications open in March)</p>
                                             <p><b>Spring Internships:</b> January - May (applications open in July)</p>
                                             <p><b>Summer Internships:</b> June - August (applications open in August)</p>
@@ -67,10 +67,7 @@ class Clickable extends Component {
                                         </Col>
                                         <div className="border-ap"></div>
                                         <Col> {/* RIGHT COLUMN */}
-                                            <p>NBCUniversal's Media Tech Associate opportunities give early career technologists real world experience and exposure to one of the world’s leading media and entertainment companies! The Associate Program is a two year development program, which offers Associates the flexibility of rotating through 3 different business groups within Operations and Technology. These positions will promote technical breadth & depth through our technical certification programs, mentorship and networking opportunities to help you jump start your career.</p>
-                                            <p><b>Fall Internships:</b> September - December (applications open in March)</p>
-                                            <p><b>Spring Internships:</b> January - May (applications open in July)</p>
-                                            <p><b>Summer Internships:</b> June - August (applications open in August)</p>
+                                            <p>As an early career development program, our Associate Program gives real world experience and exposure into NBCUniversal’s Operations and Technology department. This is a two year program where associates will have the opportunity to rotate within three different teams in locations around the country. This program offers technical certification programs, mentorships, and networking opportunities essential for jump starting your career!</p>
                                         </Col>
                                     </Row>
                                 </Container>
