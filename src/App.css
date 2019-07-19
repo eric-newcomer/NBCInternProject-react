@@ -210,6 +210,21 @@ h3 {
   border-radius: 50%;
 }
 
+
+/* FAQs */
+.Faqs h1 {
+  margin-top: 10vh;
+  margin-bottom: 6vh;
+  font-family: "sharpSans-Bold";
+}
+.Faqs h3 {
+  margin-top: 10vh;
+  margin-left: 10vh;
+  font-family: "sharpSans-Light";
+  text-align: left;
+}
+
+
 /* NAVBAR */
 .Navbar {
   min-height: 75px;

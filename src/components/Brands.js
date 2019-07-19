@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 class Brands extends Component {
     render() {
         return (
-            <div className="Brands">
+            <div className="Brands" id="OurBrands">
                 <h1>Our Brands</h1>
                 <Container>
                     <Row>

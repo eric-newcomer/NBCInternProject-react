@@ -9,6 +9,7 @@ import Clickable from './components/Clickable';
 import Instagram from './components/Instagram';
 import Experiences from './components/Experiences';
 import Brands from './components/Brands';
+import Faqs from './components/Faqs';
 
 
 class App extends Component {
@@ -26,6 +27,9 @@ class App extends Component {
             </Flip>
             <Flip>
               <Brands />
+            </Flip>
+            <Flip>
+              <Faqs />
             </Flip>
         </div>
       </Zoom>
