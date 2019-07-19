@@ -16,7 +16,7 @@ const fadeImages = [
 ];
   
 const fadeProperties = {
-    duration: 3000,
+    duration: 5000,
     transitionDuration: 500,
     infinite: true,
     indicators: false,
@@ -35,7 +35,7 @@ const Slideshow = () => {
                         <h1 className="hereYouCan">Here you can</h1>
                         <h1 className="learnFromTheBest">learn from the best.</h1>
                         <div className="search-form-wrapper">
-                            <form action="/find-a-job" method="get">
+                            <form action="https://www.nbcunicareers.com/find-a-job" method="get">
                                 <div className="search-form">
                                     <i className="far fa-search"></i>
                                     <input name="keyword" className="input-search" autocomplete="off" placeholder="Search jobs by keyword" />
