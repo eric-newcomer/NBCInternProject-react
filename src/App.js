@@ -23,9 +23,6 @@ class App extends Component {
               <Clickable />  
             </LightSpeed> 
             <Flip>
-              <Experiences />
-            </Flip>
-            <Flip>
               <Brands />
             </Flip>
             <Flip>

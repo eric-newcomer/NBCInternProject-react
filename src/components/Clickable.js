@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "react-tabs/style/react-tabs.css";
+import Experiences from './Experiences';
+import APExperiences from './APExperiences';
 
 class Clickable extends Component {
     constructor(props) {
@@ -47,6 +49,8 @@ class Clickable extends Component {
                                     </Row>
                                 </Container>
                             </div>
+                            <hr/>
+                            <Experiences/>
                         </div>
                     </TabPanel>
                     <TabPanel>
@@ -71,10 +75,11 @@ class Clickable extends Component {
                                     </Row>
                                 </Container>
                             </div>
+                            <hr/>
+                            <APExperiences/>
                         </div>
                     </TabPanel>
                 </Tabs>
-                <hr />
             </div>
 
         );
