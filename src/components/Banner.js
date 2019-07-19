@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Slide, Fade } from 'react-slideshow-image';
 import logo_tagline from '../images/NBCU_Logo_Tagline.svg';
-import la from '../images/la.jpg';
-import ny from '../images/ny.jpg';
-import ny2 from '../images/ny2.jpg';
-import ec from '../images/ec.jpg';
-import ec2 from '../images/ec2.jpg';
+import la from './images/la.jpg';
+import ny from './images/ny.jpg';
+import ny2 from './images/ny2.jpg';
+import ec from './images/ec.jpg';
+import ec2 from './images/ec2.jpg';
 
 
 
