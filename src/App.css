@@ -322,10 +322,10 @@ h3 {
 .Faqs h3 {
   margin-top: 10vh;
   margin-left: 10vh;
+  margin-right: 10vh;
   font-family: "sharpSans-Light";
   text-align: left;
 }
-
 
 /* NAVBAR */
 .Navbar {
