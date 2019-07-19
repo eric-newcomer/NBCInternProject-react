@@ -16,9 +16,13 @@ function ITModal() {
   
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>Information Technology</Modal.Title>
+            <Modal.Title>Information Technology Locations</Modal.Title>
           </Modal.Header>
-          <Modal.Body>NBCUniversal is the fastest growing media company. We’re constantly innovating, and with that comes a plethora of opportunities. Here you can learn how to power amazing events like the Olympics, FIFA World Cup and more! You’ll get to see how we keep your TV favorites like SNL and The Tonight Show Starring Jimmy Fallon on-air and running smoothly.</Modal.Body>
+          <Modal.Body>
+              <h2>Dry Creek, Colorado</h2>
+              <h2>Los Angeles, California</h2>
+              <h2>New York City, New York</h2>
+            </Modal.Body>
           <Modal.Footer>
             <Button variant="primary" onClick={handleClose}>
               Close
@@ -43,10 +47,14 @@ function EngModal() {
   
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>Engineering</Modal.Title>
+            <Modal.Title>Engineering Locations</Modal.Title>
           </Modal.Header>
-          <Modal.Body>NBCUniversal is the fastest growing media company. We’re constantly innovating, and with that comes a plethora of opportunities. Here you can learn how to power amazing events like the Olympics, FIFA World Cup and more! You’ll get to see how we keep your TV favorites like SNL and The Tonight Show Starring Jimmy Fallon on-air and running smoothly.</Modal.Body>
-          <Modal.Footer>
+          <Modal.Body>
+              <h2>Dry Creek, Colorado</h2>
+              <h2>Los Angeles, California</h2>
+              <h2>New York City, New York</h2>
+            </Modal.Body>
+            <Modal.Footer>
             <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} block>
               Close
             </Button>
@@ -70,10 +78,14 @@ function GMOModal() {
   
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>Global Media Operations</Modal.Title>
+            <Modal.Title>Global Media Operations Locations</Modal.Title>
           </Modal.Header>
-          <Modal.Body>NBCUniversal is the fastest growing media company. We’re constantly innovating, and with that comes a plethora of opportunities. Here you can learn how to power amazing events like the Olympics, FIFA World Cup and more! You’ll get to see how we keep your TV favorites like SNL and The Tonight Show Starring Jimmy Fallon on-air and running smoothly.</Modal.Body>
-          <Modal.Footer>
+          <Modal.Body>
+              <h2>Dry Creek, Colorado</h2>
+              <h2>Los Angeles, California</h2>
+              <h2>New York City, New York</h2>
+            </Modal.Body>
+            <Modal.Footer>
             <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} block>
               Close
             </Button>
@@ -100,8 +112,8 @@ class APExperiences extends Component {
                                 <h4>Tyler Schad, NOC Expansion, On-Air Operations-Englewood Cliffs, NJ</h4>
                                 <p>Expanded On-Air operational capacity and refreshed the Network Operation Center & communal employee spaces.</p>
 
-                                <h4>Third Associate</h4>
-                                <p>somethingggggggggggggggggggggggg</p>
+                                <h4>Nick Polsin, Information Security, Sports Business-Englewood Cliffs, NJ</h4>
+                                <p>Responsible for leading the deployment of an endpoint patching/systems management solution throughout the NBC Sports teams, and starting up consistent vulnerability scans throughout the team's supported businesses (Sports, Owned Stations, RSNs, Golf, etc.). Also, managed inventory of loaned hardware for company travel and reporting on the patching status of the various Sports businesses. </p>
                             </div>
                             </Col>
                     <div className="border-ap"></div>

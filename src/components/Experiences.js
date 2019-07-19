@@ -20,7 +20,7 @@ function ITModal() {
           </Modal.Header>
           <Modal.Body>NBCUniversal is the fastest growing media company. We’re constantly innovating, and with that comes a plethora of opportunities. Here you can learn how to power amazing events like the Olympics, FIFA World Cup and more! You’ll get to see how we keep your TV favorites like SNL and The Tonight Show Starring Jimmy Fallon on-air and running smoothly.</Modal.Body>
           <Modal.Footer>
-            <Button variant="primary" onClick={handleClose}>
+            <Button variant="primary" className="mr-auto ml-auto" onClick={handleClose}>
               Close
             </Button>
           </Modal.Footer>
