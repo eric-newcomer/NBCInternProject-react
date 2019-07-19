@@ -1,5 +1,87 @@
-import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import React, { Component, useState } from 'react';
+import { Container, Row, Col, Modal, Button } from 'react-bootstrap';
+// import useState from "react-dom";
+
+function ITModal() {
+    const [show, setShow] = useState(false);
+  
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+  
+    return (
+      <>
+        <Button variant="primary" onClick={handleShow}>
+          Information Technology
+        </Button>
+  
+        <Modal show={show} onHide={handleClose}>
+          <Modal.Header closeButton>
+            <Modal.Title>Information Technology</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>NBCUniversal is the fastest growing media company. We’re constantly innovating, and with that comes a plethora of opportunities. Here you can learn how to power amazing events like the Olympics, FIFA World Cup and more! You’ll get to see how we keep your TV favorites like SNL and The Tonight Show Starring Jimmy Fallon on-air and running smoothly.</Modal.Body>
+          <Modal.Footer>
+            <Button variant="primary" onClick={handleClose}>
+              Close
+            </Button>
+          </Modal.Footer>
+        </Modal>
+      </>
+    );
+}
+
+function EngModal() {
+    const [show, setShow] = useState(false);
+  
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+  
+    return (
+      <>
+        <Button variant="primary" onClick={handleShow}>
+            Engineering
+        </Button>
+  
+        <Modal show={show} onHide={handleClose}>
+          <Modal.Header closeButton>
+            <Modal.Title>Engineering</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>NBCUniversal is the fastest growing media company. We’re constantly innovating, and with that comes a plethora of opportunities. Here you can learn how to power amazing events like the Olympics, FIFA World Cup and more! You’ll get to see how we keep your TV favorites like SNL and The Tonight Show Starring Jimmy Fallon on-air and running smoothly.</Modal.Body>
+          <Modal.Footer>
+            <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} block>
+              Close
+            </Button>
+          </Modal.Footer>
+        </Modal>
+      </>
+    );
+}
+
+function GMOModal() {
+    const [show, setShow] = useState(false);
+  
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+  
+    return (
+      <>
+        <Button className="mr-auto ml-auto" variant="primary" onClick={handleShow}>
+        Global Media Operations
+        </Button>
+  
+        <Modal show={show} onHide={handleClose}>
+          <Modal.Header closeButton>
+            <Modal.Title>Global Media Operations</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>NBCUniversal is the fastest growing media company. We’re constantly innovating, and with that comes a plethora of opportunities. Here you can learn how to power amazing events like the Olympics, FIFA World Cup and more! You’ll get to see how we keep your TV favorites like SNL and The Tonight Show Starring Jimmy Fallon on-air and running smoothly.</Modal.Body>
+          <Modal.Footer>
+            <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} block>
+              Close
+            </Button>
+          </Modal.Footer>
+        </Modal>
+      </>
+    );
+}
 
 class Experiences extends Component {
     render () {
@@ -24,9 +106,13 @@ class Experiences extends Component {
                     <Col> {/* RIGHT COLUMN */}
                         <h2>Experiences by Department</h2>
                         <div className="expByDepartment">
-                            <div id="deptButton"><button className="btn">Information Technology</button></div>
-                            <div id="deptButton"><button className="btn">Engineering</button></div>
-                            <div id="deptButton"><button className="btn">Global Media Operations</button></div>
+                            <ITModal />
+                        </div>
+                        <div className="expByDepartment">
+                            <EngModal />
+                        </div>
+                        <div className="expByDepartment">
+                            <GMOModal />
                         </div>
                     </Col>
                     </Row>
