@@ -36,7 +36,7 @@
     font-family: "sharpSans-Bold";
     min-height: 20vh;
     width: 70% !important;
-    margin-left: 20vh;
+    margin-left: 10vh !important;
     margin-bottom: 8vh;
   }
   .Overview h1 {
