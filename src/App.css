@@ -32,9 +32,62 @@
   }
 
   /* OVERVIEW MOBILE */
-  
+  .Overview {
+    font-family: "sharpSans-Bold";
+    min-height: 20vh;
+    width: 70% !important;
+    margin-left: 20vh;
+    margin-bottom: 8vh;
+  }
+  .Overview h1 {
+    font-size: 20px !important;
+  }
+  .Overview p {
+    font-size: 16px !important;
+  }
+  .btn {
+    padding: 12px 22px !important;
+    font-size: 16px !important;
+    width: 50vh;  
+  }
 
+  /* CLICKABLE MOBILE */
+  .Clickable {
+    font-family: "sharpSans-Bold";
+    min-height: 50vh;
+    width: 100% !important;
+    text-align: center;
+  }
+  .MediaTechInfo p {
+    font-size: 16px !important;
+    margin-right: 0 !important;
+  }
+  .AssociateInfo p {
+    font-size: 16px !important;
+    margin-right: 0 !important;
+  }
+
+  /* FAQs MOBILE */
+  .Faqs h1 {
+    font-size: 22px !important;
+    margin-top: 10vh !important;
+    margin-bottom: 6vh;
+    font-family: "sharpSans-Bold";
+  }
+  .Faqs h3 {
+    margin-top: 6vh !important;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-family: "sharpSans-Light";
+    font-size: 16px;
+    text-align: left;
+  }
 }
+
+
+
+
+
 
 /* BANNER */
 .Banner {
