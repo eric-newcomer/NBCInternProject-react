@@ -333,9 +333,13 @@ h3 {
 .APExperiences h2 {
   font-family: "sharpSans-Light";
 }
-.APExperiences h4, p {
+.APExperiences h5, p {
   text-align: left;
   margin-left: 6vh;
+}
+.APExperiences p {
+  line-height: 1.5;
+  margin-bottom: 6vh;
 }
 .btn-exp {
   background-color: #896EB1;

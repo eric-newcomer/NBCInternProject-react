@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import la from './images/la.jpg';
 import { Container, Row, Col } from 'react-bootstrap';
+import Carousel from './Carousel';
+
 
 const brandImages = [
     "https://www.nbcunicareers.com/_flysystem/s3-flysystem/2019-02/Reversed-TelemundoStud-18.png",
@@ -23,41 +25,13 @@ const brandImages = [
 
 class Brands extends Component {
     render() {
-        const settings = {
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 1
-        };
+        
         return (
             <div className="Brands" id="OurBrands">
                 <hr/>
                 <h1>Our Brands</h1>
-                <Container>
-                    <Row>
-                        <Col><img src={brandImages[0]}/></Col>
-                        <Col><img src={brandImages[1]}/></Col>
-                        <Col><img src={brandImages[2]}/></Col>
-                        <Col><img src={brandImages[3]}/></Col>
-                        <Col><img src={brandImages[4]}/></Col>
-                        <Col><img src={brandImages[5]}/></Col>
-                    </Row>
-                    <br />
-                    <Row>
-                        <Col><img src={brandImages[6]}/></Col>
-                        <Col><img src={brandImages[7]}/></Col>
-                        <Col><img src={brandImages[8]}/></Col>
-                        <Col><img src={brandImages[9]}/></Col>
-                        <Col><img src={brandImages[10]}/></Col>
-                        <Col><img src={brandImages[11]}/></Col>
-                    </Row>
-                    <Row>
-                        <Col>
-                            <a href="https://www.nbcunicareers.com/brands" target="_blank"><h2>See More</h2></a>
-                        </Col>
-                    </Row>
-                </Container>
+                <Carousel />
+                <hr/>
             </div>
         );
     }

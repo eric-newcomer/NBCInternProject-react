@@ -106,13 +106,13 @@ class APExperiences extends Component {
                             <h2>Hear From Our Associates</h2>
                             <br/>
                             <div id="intProjDesc">
-                                <h4>Marcie Tran, Software Development, Media Engineering – Englewood Cliffs, NJ</h4>
+                                <h5>Marcie Tran, Software Development, Media Engineering – Englewood Cliffs, NJ</h5>
                                 <p>"Integrated machine learning APIs into existing post-production workflows to enable automated video and audio analysis, such as facial recognition and video transcription."</p>
 
-                                <h4>Tyler Schad, NOC Expansion, On-Air Operations-Englewood Cliffs, NJ</h4>
+                                <h5>Tyler Schad, NOC Expansion, On-Air Operations-Englewood Cliffs, NJ</h5>
                                 <p>Expanded On-Air operational capacity and refreshed the Network Operation Center & communal employee spaces.</p>
 
-                                <h4>Nick Polsin, Information Security, Sports Business-Englewood Cliffs, NJ</h4>
+                                <h5>Nick Polsin, Information Security, Sports Business-Englewood Cliffs, NJ</h5>
                                 <p>Responsible for leading the deployment of an endpoint patching/systems management solution throughout the NBC Sports teams, and starting up consistent vulnerability scans throughout the team's supported businesses (Sports, Owned Stations, RSNs, Golf, etc.). Also, managed inventory of loaned hardware for company travel and reporting on the patching status of the various Sports businesses. </p>
                             </div>
                             </Col>
