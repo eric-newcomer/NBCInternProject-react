@@ -471,6 +471,7 @@ h3 {
 }
 .Collapse:hover {
   background-color: #eeeeee;
+  color: #896EB1;
   transition: 0.3s;
 }
 .Collapsed {
