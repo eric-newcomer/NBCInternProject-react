@@ -31,7 +31,6 @@ class Brands extends Component {
                 <hr/>
                 <h1>Our Brands</h1>
                 <Carousel />
-                <hr/>
             </div>
         );
     }

@@ -224,7 +224,7 @@ h3 {
   margin-top: 8vh;
 }
 .MediaTechInfo h2 {
-  text-shadow: -1px -1px 0 #87CEEB, 1px -1px 0 #87CEEB, -1px 1px 0 #87CEEB, 1px 1px 0 #87CEEB;
+  text-shadow: -1px -1px 0 #26ace2, 1px -1px 0 #26ace2, -1px 1px 0 #26ace2, 1px 1px 0 #26ace2;
 }
 .MediaTechInfo p {
   font-size: 18px;
@@ -235,7 +235,7 @@ h3 {
   margin-top: 8vh;
 }
 .AssociateInfo h2 {
-  text-shadow: -1px -1px 0 #99FF99, 1px -1px 0 #99FF99, -1px 1px 0 #99FF99, 1px 1px 0 #99FF99;
+  text-shadow: -1px -1px 0 #74c25c, 1px -1px 0 #74c25c, -1px 1px 0 #74c25c, 1px 1px 0 #74c25c;
 }
 .AssociateInfo p {
   font-size: 18px;
@@ -243,12 +243,12 @@ h3 {
   margin-right: 10vh;
 }
 .border-mt {
-  background-color: #87CEEB;
+  background-color: #26ace2;
   width: 2px;
   min-height: 50vh;
 }
 .border-ap {
-  background-color: #99FF99;
+  background-color: #74c25c;
   width: 2px;
   min-height: 50vh;
 }
