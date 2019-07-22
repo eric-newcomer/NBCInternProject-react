@@ -24,8 +24,8 @@ class Clickable extends Component {
             <div className="Clickable">
                 <Tabs>
                     <TabList>
-                        <Tab onClick={this.mtButton} style={{backgroundColor: this.state.mtColor}}><h4>Media Tech Program</h4></Tab>
-                        <Tab onClick={this.apButton} style={{backgroundColor: this.state.apColor}}><h4>Associate's Program</h4></Tab>
+                        <Tab onClick={this.mtButton}><h4>Internships</h4></Tab>  {/* style={{backgroundColor: this.state.mtColor}} */}
+                        <Tab onClick={this.apButton}><h4>Associate Positions</h4></Tab> {/* style={{backgroundColor: this.state.apColor}} */}
                     </TabList>
                     <TabPanel>
                         <div className="MTContainer">
@@ -59,7 +59,7 @@ class Clickable extends Component {
                                 <Container>
                                     <Row>
                                     <Col> {/* LEFT COLUMN */} 
-                                            <h2>Associate's Program</h2>
+                                            <h2>Associate Positions</h2>
                                             <br/>
                                             <h4><a href="#Experiences">Experiences</a></h4> {/* TODO: ADD SCROLL TO COMPONENT FUNCTIONALITY */}
                                             <h4><a href="#OurBrands">Our Brands</a></h4>

@@ -92,7 +92,9 @@
 
 
 
-
+p {
+  font-family: "sharpSans-Medium";
+}
 
 /* BANNER */
 .Banner {
@@ -184,7 +186,7 @@ h3 {
 }
 .Overview p {
   margin-top: 5vh;
-  margin-right: 14vw;
+  margin-right: 18vw;
   font-size: 20px;
   margin-left: 0 !important;
 }
@@ -221,7 +223,7 @@ h3 {
   text-align: center;
 }
 .Clickable h4 {
-  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+  /* text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF; */
   opacity: 0.7;
   transition: 0.3s;
 }
@@ -232,9 +234,9 @@ h3 {
 .MediaTechInfo {
   margin-top: 8vh;
 }
-.MediaTechInfo h2 {
+/* .MediaTechInfo h2 {
   text-shadow: -1px -1px 0 #26ace2, 1px -1px 0 #26ace2, -1px 1px 0 #26ace2, 1px 1px 0 #26ace2;
-}
+} */
 .MediaTechInfo p {
   font-size: 18px;
   text-align: left;
@@ -243,9 +245,9 @@ h3 {
 .AssociateInfo {
   margin-top: 8vh;
 }
-.AssociateInfo h2 {
+/* .AssociateInfo h2 {
   text-shadow: -1px -1px 0 #74c25c, 1px -1px 0 #74c25c, -1px 1px 0 #74c25c, 1px 1px 0 #74c25c;
-}
+} */
 .AssociateInfo p {
   font-size: 18px;
   text-align: left;
