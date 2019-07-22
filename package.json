@@ -17,6 +17,7 @@
     "react-reveal": "^1.2.2",
     "react-scripts": "3.0.1",
     "react-scroll-horizontal": "^1.6.2",
+    "react-slick": "^0.24.0",
     "react-slideshow-image": "^1.2.0",
     "react-tabs": "^3.0.0",
     "styled-components": "^4.3.2",

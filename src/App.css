@@ -141,7 +141,7 @@ h3 {
   font-size: 8vw;
   line-height: 1;
   font-family: "sharpSans-Bold";
-  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+  /* text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF; */
   text-align: left;
   margin-left: 8vw;
 }
@@ -149,7 +149,7 @@ h3 {
   font-family: "sharpSans-Light";
   font-size: 4vw;
   line-height: 1;
-  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+  /* text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF; */
   text-align: left;
   margin-left: 8vw;
 }
