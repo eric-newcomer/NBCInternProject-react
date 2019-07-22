@@ -439,9 +439,6 @@ h3 {
 
 
 /* FAQs */
-/* .Faqs {
-  width: 80%;
-} */
 .Faqs h1 {
   margin-top: 10vh;
   margin-bottom: 6vh;
@@ -457,7 +454,6 @@ h3 {
 }
 .Faqs h3 {
   margin-top: 6vh;
-  margin-left: 10vh;
   margin-right: 10vh;
   font-family: "sharpSans-Medium";
   text-align: left;
@@ -469,7 +465,21 @@ h3 {
   margin-left: 10vh;
   margin-right: 10vh;
   text-align: left;
-  background-color: grey;
+  background-color: #ffffff;
+  font-size: 26px;
+  transition: 0.3s;
+}
+.Collapse:hover {
+  background-color: #eeeeee;
+  transition: 0.3s;
+}
+.Collapsed {
+  font-family: "sharpSans-Semibold";
+  margin-top: 10vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  text-align: left;
+  background-color: #eeeeee;
   font-size: 26px;
 }
 
