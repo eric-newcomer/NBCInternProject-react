@@ -23,6 +23,13 @@ const brandImages = [
 
 class Brands extends Component {
     render() {
+        const settings = {
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        };
         return (
             <div className="Brands" id="OurBrands">
                 <hr/>
