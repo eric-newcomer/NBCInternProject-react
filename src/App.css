@@ -234,9 +234,10 @@ h3 {
 .MediaTechInfo {
   margin-top: 8vh;
 }
-/* .MediaTechInfo h2 {
-  text-shadow: -1px -1px 0 #26ace2, 1px -1px 0 #26ace2, -1px 1px 0 #26ace2, 1px 1px 0 #26ace2;
-} */
+.MediaTechInfo h2 {
+  /* text-shadow: -1px -1px 0 #26ace2, 1px -1px 0 #26ace2, -1px 1px 0 #26ace2, 1px 1px 0 #26ace2; */
+  color: #26ace2;
+}
 .MediaTechInfo p {
   font-size: 18px;
   text-align: left;
@@ -245,9 +246,10 @@ h3 {
 .AssociateInfo {
   margin-top: 8vh;
 }
-/* .AssociateInfo h2 {
-  text-shadow: -1px -1px 0 #74c25c, 1px -1px 0 #74c25c, -1px 1px 0 #74c25c, 1px 1px 0 #74c25c;
-} */
+.AssociateInfo h2 {
+  /* text-shadow: -1px -1px 0 #74c25c, 1px -1px 0 #74c25c, -1px 1px 0 #74c25c, 1px 1px 0 #74c25c; */
+  color: #74c25c;
+}
 .AssociateInfo p {
   font-size: 18px;
   text-align: left;
@@ -259,6 +261,17 @@ h3 {
   min-height: 50vh;
 }
 .border-ap {
+  background-color: #74c25c;
+  width: 2px;
+  min-height: 50vh;
+}
+.border-mt-horiz {
+  background-color: #26ace2;
+  width: 40vh;
+  height: 2px;
+  margin-left: 30vh; 
+}
+.border-ap-horiz {
   background-color: #74c25c;
   width: 2px;
   min-height: 50vh;
@@ -345,6 +358,7 @@ h3 {
   font-family: "sharpSans-Light";
 }
 .APExperiences h5, p {
+  font-family: "sharpSans-Semibold";
   text-align: left;
   margin-left: 6vh;
 }
@@ -425,17 +439,38 @@ h3 {
 
 
 /* FAQs */
+/* .Faqs {
+  width: 80%;
+} */
 .Faqs h1 {
   margin-top: 10vh;
   margin-bottom: 6vh;
   font-family: "sharpSans-Bold";
 }
-.Faqs h3 {
+.Faqs h2 {
   margin-top: 10vh;
   margin-left: 10vh;
   margin-right: 10vh;
-  font-family: "sharpSans-Light";
+  font-family: "sharpSans-Semibold";
   text-align: left;
+  font-size: 26px;
+}
+.Faqs h3 {
+  margin-top: 6vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  font-family: "sharpSans-Medium";
+  text-align: left;
+  font-size: 22px;
+}
+.Collapse {
+  font-family: "sharpSans-Semibold";
+  margin-top: 10vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  text-align: left;
+  background-color: grey;
+  font-size: 26px;
 }
 
 /* NAVBAR */

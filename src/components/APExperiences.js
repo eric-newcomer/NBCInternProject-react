@@ -19,9 +19,9 @@ function ITModal() {
             <Modal.Title>Information Technology Locations</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-              <h2>Dry Creek, Colorado</h2>
-              <h2>Los Angeles, California</h2>
-              <h2>New York City, New York</h2>
+              <h5>Dry Creek, Colorado</h5>
+              <h5>Los Angeles, California</h5>
+              <h5>New York City, New York</h5>
             </Modal.Body>
           <Modal.Footer>
             <Button variant="primary" onClick={handleClose}>
@@ -50,9 +50,9 @@ function EngModal() {
             <Modal.Title>Engineering Locations</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-              <h2>Dry Creek, Colorado</h2>
-              <h2>Los Angeles, California</h2>
-              <h2>New York City, New York</h2>
+              <h5>Dry Creek, Colorado</h5>
+              <h5>Los Angeles, California</h5>
+              <h5>New York City, New York</h5>
             </Modal.Body>
             <Modal.Footer>
             <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} block>
