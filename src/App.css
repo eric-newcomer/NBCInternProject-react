@@ -220,9 +220,6 @@ h3 {
   color: #896EB1;
   opacity: 1;
 }
-.MTContainer h4{
-  
-}
 .MediaTechInfo {
   margin-top: 8vh;
 }
@@ -230,6 +227,7 @@ h3 {
   text-shadow: -1px -1px 0 #87CEEB, 1px -1px 0 #87CEEB, -1px 1px 0 #87CEEB, 1px 1px 0 #87CEEB;
 }
 .MediaTechInfo p {
+  font-size: 18px;
   text-align: left;
   margin-right: 10vh;
 }
@@ -240,6 +238,7 @@ h3 {
   text-shadow: -1px -1px 0 #99FF99, 1px -1px 0 #99FF99, -1px 1px 0 #99FF99, 1px 1px 0 #99FF99;
 }
 .AssociateInfo p {
+  font-size: 18px;
   text-align: left;
   margin-right: 10vh;
 }
@@ -327,6 +326,7 @@ h3 {
 .APExperiences {
 }
 .APExperiences h1 {
+  margin-top: 10vh;
   margin-bottom: 10vh;
   font-family: "sharpSans-Bold";
 }
