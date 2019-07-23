@@ -4,14 +4,14 @@
   overflow-x: hidden;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (min-width: 350px) {
   /* BANNER MOBILE */
   .hereYouCan {
-    text-align: center !important;
+    text-align: left !important;
     font-size: 12vw !important;
   } 
   .learnFromTheBest {
-    text-align: center !important;
+    text-align: left !important;
     font-size: 8vw !important;
     
   }
@@ -19,7 +19,7 @@
     margin-right: 2vw !important;
   }
   .featured-top .search-form-wrapper {
-    width: 75% !important;
+    width: 70% !important;
     height: 8vh;
     
   }
@@ -29,6 +29,9 @@
   .each-fade img {
     padding-top: 20vh !important;
     vertical-align: bottom !important;
+  }
+  .featured-top .field--name-field-banner-logo-small img {
+    margin-right: 40vw;
   }
 
   /* OVERVIEW MOBILE */
@@ -110,7 +113,7 @@ p {
   right: 2vh !important;
 }
 .featured-top .search-form-wrapper {
-  width: 100%;
+  width: 70%;
   align-content: center;
   margin-left: 8vw;
 }
@@ -233,6 +236,7 @@ h3 {
 }
 .MediaTechInfo {
   margin-top: 8vh;
+  text-align: left;
 }
 .MediaTechInfo h2 {
   /* text-shadow: -1px -1px 0 #26ace2, 1px -1px 0 #26ace2, -1px 1px 0 #26ace2, 1px 1px 0 #26ace2; */
@@ -245,6 +249,7 @@ h3 {
 }
 .AssociateInfo {
   margin-top: 8vh;
+  text-align: left;
 }
 .AssociateInfo h2 {
   /* text-shadow: -1px -1px 0 #74c25c, 1px -1px 0 #74c25c, -1px 1px 0 #74c25c, 1px 1px 0 #74c25c; */

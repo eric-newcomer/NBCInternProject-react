@@ -20,8 +20,8 @@ class App extends Component {
             <Banner />  
             <LightSpeed left>
               <Overview />  
-              <Clickable />  
             </LightSpeed> 
+            <Clickable />  
             <Flip>
               <Brands />
             </Flip>
