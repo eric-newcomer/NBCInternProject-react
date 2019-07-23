@@ -242,11 +242,18 @@ h3 {
 .MediaTechInfo h2 {
   /* text-shadow: -1px -1px 0 #26ace2, 1px -1px 0 #26ace2, -1px 1px 0 #26ace2, 1px 1px 0 #26ace2; */
   color: #26ace2;
+  margin-left: 8vw;
+}
+.MediaTechInfo h4 {
+  margin-left: 8vw;
 }
 .MediaTechInfo p {
   font-size: 18px;
   text-align: left;
   margin-right: 10vh;
+}
+.quickMarginLeft {
+  margin-left: 8vw;
 }
 .AssociateInfo {
   margin-top: 8vh;
@@ -255,6 +262,10 @@ h3 {
 .AssociateInfo h2 {
   /* text-shadow: -1px -1px 0 #74c25c, 1px -1px 0 #74c25c, -1px 1px 0 #74c25c, 1px 1px 0 #74c25c; */
   color: #74c25c;
+  margin-left: 8vw;
+}
+.AssociateInfo h4 {
+  margin-left: 8vw;
 }
 .AssociateInfo p {
   font-size: 18px;
