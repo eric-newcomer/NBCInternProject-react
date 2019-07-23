@@ -14,7 +14,7 @@ function ITModal() {
           Information Technology
         </Button>
   
-        <Modal show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose} centered>
           <Modal.Header closeButton>
             <Modal.Title>Information Technology</Modal.Title>
           </Modal.Header>
@@ -41,7 +41,7 @@ function EngModal() {
             Engineering
         </Button>
   
-        <Modal show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose} centered>
           <Modal.Header closeButton>
             <Modal.Title>Engineering</Modal.Title>
           </Modal.Header>
@@ -68,7 +68,7 @@ function GMOModal() {
         Global Media Operations
         </Button>
   
-        <Modal show={show} onHide={handleClose}>
+        <Modal show={show} onHide={handleClose} centered>
           <Modal.Header closeButton>
             <Modal.Title>Global Media Operations</Modal.Title>
           </Modal.Header>

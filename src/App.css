@@ -487,31 +487,6 @@ h3 {
   text-align: left;
   font-size: 22px;
 } */
-.Collapse {
-  font-family: "sharpSans-Semibold";
-  margin-top: 10vh;
-  margin-left: 10vh;
-  margin-right: 10vh;
-  text-align: left;
-  background-color: #ffffff;
-  font-size: 26px;
-  transition: 0.3s;
-  cursor: pointer;
-}
-.Collapse:hover {
-  background-color: #eeeeee;
-  color: #896EB1;
-  transition: 0.3s;
-}
-.Collapsed {
-  font-family: "sharpSans-Semibold";
-  margin-top: 10vh;
-  margin-left: 10vh;
-  margin-right: 10vh;
-  text-align: left;
-  background-color: #eeeeee;
-  font-size: 26px;
-}
 
 /* NAVBAR */
 .Navbar {
