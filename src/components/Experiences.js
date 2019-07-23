@@ -18,7 +18,7 @@ function ITModal() {
           <Modal.Header closeButton>
             <Modal.Title>Information Technology</Modal.Title>
           </Modal.Header>
-          <Modal.Body>NBCUniversal is the fastest growing media company. We’re constantly innovating, and with that comes a plethora of opportunities. Here you can learn how to power amazing events like the Olympics, FIFA World Cup and more! You’ll get to see how we keep your TV favorites like SNL and The Tonight Show Starring Jimmy Fallon on-air and running smoothly.</Modal.Body>
+          <Modal.Body>Information Technology provides strategic guidance, innovative technological solutions, customer service and information security to business units, brands and employees across NBCUniversal. NBCUniversal's IT teams simplify and improve our clients’ experiences with innovative technology, while developing solutions that transform how we shape the future of media and entertainment.</Modal.Body>
           <Modal.Footer>
             <Button variant="primary" className="mr-auto ml-auto" onClick={handleClose}>
               Close
@@ -45,7 +45,7 @@ function EngModal() {
           <Modal.Header closeButton>
             <Modal.Title>Engineering</Modal.Title>
           </Modal.Header>
-          <Modal.Body>NBCUniversal is the fastest growing media company. We’re constantly innovating, and with that comes a plethora of opportunities. Here you can learn how to power amazing events like the Olympics, FIFA World Cup and more! You’ll get to see how we keep your TV favorites like SNL and The Tonight Show Starring Jimmy Fallon on-air and running smoothly.</Modal.Body>
+          <Modal.Body>Engineering is responsible for the design, implementation and support of all technology, software and infrastructure for Global Media Operations and Production Operations, while ensuring reliable content delivery and linear origination across NBCUniversal’s operations.</Modal.Body>
           <Modal.Footer>
             <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} block>
               Close
@@ -72,7 +72,7 @@ function GMOModal() {
           <Modal.Header closeButton>
             <Modal.Title>Global Media Operations</Modal.Title>
           </Modal.Header>
-          <Modal.Body>NBCUniversal is the fastest growing media company. We’re constantly innovating, and with that comes a plethora of opportunities. Here you can learn how to power amazing events like the Olympics, FIFA World Cup and more! You’ll get to see how we keep your TV favorites like SNL and The Tonight Show Starring Jimmy Fallon on-air and running smoothly.</Modal.Body>
+          <Modal.Body>Global Media Operations is responsible for building and supporting our content supply chain, globally delivering to TV screens and all other viewing platforms. </Modal.Body>
           <Modal.Footer>
             <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} block>
               Close
@@ -95,11 +95,11 @@ class Experiences extends Component {
                             <br/>
                             <div id="intProjDesc">
                                 <h4>2019</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <p>Interns were tasked with redesigning the Media Tech website. They were divided into teams and were responsible for research, planning and development of the site.</p>
                                 <h4>2018</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <p>Interns were asked to design an interactive ad experience to promote NBC content. Groups used platforms such as Snapchat and partnered with NBC brands like Fandago and Universal Studios to achieve this.</p>
                                 <h4>2017</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <p>Interns were asked to create a mobile application incorporating Amazon Alexa and NBC Content. For example, one group designed an interactive app using augmented reality to promote the (then) upcoming movie, "How To Train Your Dragon 2."</p>
                             </div>
                             </Col>
                     <div className="border-mt"></div>

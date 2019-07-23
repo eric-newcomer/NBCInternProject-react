@@ -5,7 +5,7 @@ import la from './images/la.jpg';
 import ny from './images/ny.jpg';
 import ny2 from './images/ny2.jpg';
 import ec from './images/ec.jpg';
-import ec2 from './images/ec2.jpg';
+import ec2 from './images/NOC2.png';
 
 const fadeImages = [
     la,
