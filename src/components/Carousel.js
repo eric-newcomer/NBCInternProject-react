@@ -50,12 +50,12 @@ export default class Carousel extends React.Component {
   render() {
     return (
       <CarouselProvider
-        naturalSlideWidth={100}
-        naturalSlideHeight={80}
+        naturalSlideWidth={140}
+        naturalSlideHeight={100}
         totalSlides={41}
         interval={1000}
         isPlaying={true}
-        visibleSlides={6}
+        visibleSlides={5}
       >
         <Slider>
           <Slide index={0}><img src={brandImages[0]}/></Slide>

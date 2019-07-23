@@ -70,6 +70,13 @@
     margin-right: 0 !important;
   }
 
+  /* BRANDS MOBILE */
+
+  .Brands img {
+    width: 10vh !important;
+    height: 10vh !important;
+  }
+
   /* FAQs MOBILE */
   .Faqs h1 {
     font-size: 22px !important;
@@ -435,6 +442,7 @@ h3 {
 /* BRANDS */
 .Brands {
   width: 100%;
+  margin-bottom: 6vh;
 }
 .Brands h1 {
   margin-top: 10vh;
