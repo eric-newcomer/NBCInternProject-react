@@ -41,10 +41,10 @@ class Clickable extends Component {
                                         </Col>
                                         <div className="border-mt"></div>
                                         <Col> {/* RIGHT COLUMN */}
-                                            <p>Here at NBCUniversal we constantly strive for innovation and discovery. To help us achieve these goals we are searching for talented technologists to be our MediaTech Interns. Our MediaTech program is a 10 week paid internship program which will expose interns to firsthand technical experiences within our vast Operations and Technology Department. Along with working on projects with employees and other interns, this program also serves as a direct line into our Associates Program.</p>
-                                            <p><b>Fall Internships:</b> September - December (applications open in March)</p>
-                                            <p><b>Spring Internships:</b> January - May (applications open in July)</p>
-                                            <p><b>Summer Internships:</b> June - August (applications open in August)</p>
+                                            <p><b>Here at NBCUniversal we constantly strive for innovation and discovery. To help us achieve these goals we are searching for talented technologists to be our MediaTech Interns. Our MediaTech program is a 10 week paid internship program which will expose interns to firsthand technical experiences within our vast Operations and Technology Department. Along with working on projects with employees and other interns, this program also serves as a direct line into our Associates Program.</b></p>
+                                            <p><b>Fall Internships: September - December (applications open in March)</b></p>
+                                            <p><b>Spring Internships: January - May (applications open in July)</b></p>
+                                            <p><b>Summer Internships: June - August (applications open in August)</b></p>
                                         </Col>
                                     </Row>
                                 </Container>
@@ -67,7 +67,7 @@ class Clickable extends Component {
                                         </Col>
                                         <div className="border-ap"></div>
                                         <Col> {/* RIGHT COLUMN */}
-                                            <p>As an early career development program, our Associate Program gives real world experience and exposure into NBCUniversal’s Operations and Technology department. This is a two year program where associates will have the opportunity to rotate within three different teams in locations around the country. This program offers technical certification programs, mentorships, and networking opportunities essential for jump starting your career!</p>
+                                            <p><b>As an early career development program, our Associate Program gives real world experience and exposure into NBCUniversal’s Operations and Technology department. This is a two year program where associates will have the opportunity to rotate within three different teams in locations around the country. This program offers technical certification programs, mentorships, and networking opportunities essential for jump starting your career!</b></p>
                                         </Col>
                                     </Row>
                                 </Container>

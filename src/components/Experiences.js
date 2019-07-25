@@ -1,6 +1,14 @@
 import React, { Component, useState } from 'react';
 import { Container, Row, Col, Modal, Button } from 'react-bootstrap';
-// import useState from "react-dom";
+import ct from './images/ct.png';
+import ct2 from './images/ct2.png';
+import ct3 from './images/ct3.png';
+import NYicon from './images/NYicon.png';
+import LAicon from './images/LAiconFINAL.png';
+import NJicon from './images/NJicon.png';
+import NJicon2 from './images/NJicon2.png';
+import NJicon3 from './images/NJicon3.png';
+import co from './images/co.png';
 
 function ITModal() {
     const [show, setShow] = useState(false);
@@ -14,11 +22,43 @@ function ITModal() {
           Information Technology
         </Button>
   
-        <Modal show={show} onHide={handleClose} centered>
+        <Modal size="lg" show={show} onHide={handleClose} centered>
           <Modal.Header closeButton>
             <Modal.Title>Information Technology</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Information Technology provides strategic guidance, innovative technological solutions, customer service and information security to business units, brands and employees across NBCUniversal. NBCUniversal's IT teams simplify and improve our clients’ experiences with innovative technology, while developing solutions that transform how we shape the future of media and entertainment.</Modal.Body>
+          <Modal.Body>
+            <p>Information Technology provides strategic guidance, innovative technological solutions, customer service and information security to business units, brands and employees across NBCUniversal. NBCUniversal's IT teams simplify and improve our clients’ experiences with innovative technology, while developing solutions that transform how we shape the future of media and entertainment.</p>
+              <Row>
+                <div id="iconCol">
+                  <Col >
+                    <img width="*" height="100" src={ct3}/>
+                    <br/>
+                    <p>Connecticut</p>
+                  </Col>
+                </div>
+                <div id="iconCol">
+                  <Col>
+                    <img width="*" height="100" src={NYicon}/>
+                    <br/>
+                    <p>New York</p>
+                  </Col>
+                </div>
+                <div id="iconCol">
+                  <Col>
+                    <img width="*" height="100" src={LAicon}/>
+                    <br/>
+                    <p>Los Angeles</p>
+                  </Col>
+                </div>
+                <div id="iconCol">
+                  <Col>            
+                    <img width="*" height="100" src={NJicon3}/>
+                    <br/>
+                    <p>New Jersey</p>
+                  </Col>
+                </div>
+              </Row>
+          </Modal.Body>
           <Modal.Footer>
             <Button variant="primary" className="mr-auto ml-auto" onClick={handleClose}>
               Close
@@ -41,11 +81,43 @@ function EngModal() {
             Engineering
         </Button>
   
-        <Modal show={show} onHide={handleClose} centered>
+        <Modal size="lg" show={show} onHide={handleClose} centered>
           <Modal.Header closeButton>
             <Modal.Title>Engineering</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Engineering is responsible for the design, implementation and support of all technology, software and infrastructure for Global Media Operations and Production Operations, while ensuring reliable content delivery and linear origination across NBCUniversal’s operations.</Modal.Body>
+          <Modal.Body>
+            <p>Engineering is responsible for the design, implementation and support of all technology, software and infrastructure for Global Media Operations and Production Operations, while ensuring reliable content delivery and linear origination across NBCUniversal’s operations.</p>
+            <Row>
+                <div id="iconCol">
+                  <Col>
+                    <img width="*" height="100" src={NYicon}/>
+                    <br/>
+                    <p>New York</p>
+                  </Col>
+                </div>
+                <div id="iconCol">
+                  <Col>
+                    <img width="*" height="100" src={LAicon}/>
+                    <br/>
+                    <p>Los Angeles</p>
+                  </Col>
+                </div>
+                <div id="iconCol">
+                  <Col >
+                    <img width="*" height="100" src={co}/>
+                    <br/>
+                    <p>Colorado</p>
+                  </Col>
+                </div>
+                <div id="iconCol">
+                  <Col>            
+                    <img width="*" height="100" src={NJicon3}/>
+                    <br/>
+                    <p>New Jersey</p>
+                  </Col>
+                </div>
+              </Row>
+            </Modal.Body>
           <Modal.Footer>
             <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} block>
               Close
@@ -68,11 +140,36 @@ function GMOModal() {
         Global Media Operations
         </Button>
   
-        <Modal show={show} onHide={handleClose} centered>
+        <Modal size="lg" show={show} onHide={handleClose} centered>
           <Modal.Header closeButton>
             <Modal.Title>Global Media Operations</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Global Media Operations is responsible for building and supporting our content supply chain, globally delivering to TV screens and all other viewing platforms. </Modal.Body>
+          <Modal.Body>
+            <p>Global Media Operations is responsible for building and supporting our content supply chain, globally delivering to TV screens and all other viewing platforms.</p>
+            <Row>
+                <div id="iconCol">
+                  <Col>
+                    <img width="*" height="100" src={NYicon}/>
+                    <br/>
+                    <p>New York</p>
+                  </Col>
+                </div>
+                <div id="iconCol">
+                  <Col>
+                    <img width="*" height="100" src={LAicon}/>
+                    <br/>
+                    <p>Los Angeles</p>
+                  </Col>
+                </div>
+                <div id="iconCol">
+                  <Col >
+                    <img width="*" height="100" src={co}/>
+                    <br/>
+                    <p>Colorado</p>
+                  </Col>
+                </div>
+              </Row>  
+          </Modal.Body>
           <Modal.Footer>
             <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} block>
               Close
