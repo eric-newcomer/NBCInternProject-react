@@ -8,8 +8,8 @@ import ec from './images/ec.jpg';
 import ec2 from './images/NOC2.png';
 
 const fadeImages = [
-    ny2,
     la,
+    ny2,
     ec,
     ny, 
     ec2,
