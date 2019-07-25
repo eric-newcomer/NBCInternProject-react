@@ -93,6 +93,11 @@
     text-align: left;
   }
 
+  /* IMAGESLIDER MOBILE */
+  .ImageSlider img {
+    width: 95% !important;
+  }
+
   /* BRANDS MOBILE */
   .Brands {
     width: 50%;
@@ -474,6 +479,7 @@ h3 {
 
 /* IMAGE SLIDER */
 .ImageSlider {
+  width: 100%;
   margin-top: 10vh;
   margin-bottom: 10vh;
   vertical-align: middle;
