@@ -224,7 +224,6 @@ h3 {
   align-content: center !important;
 }
 
-
 /* CLICKABLE */
 .Clickable {
   font-family: "sharpSans-Bold";
@@ -467,26 +466,22 @@ h3 {
 .material-icons {
   vertical-align: middle;
 }
-/* .Faqs h1 {
+
+/* IMAGE SLIDER */
+.ImageSlider {
   margin-top: 10vh;
-  margin-bottom: 6vh;
-  font-family: "sharpSans-Bold";
+  margin-bottom: 10vh;
+  vertical-align: middle;
 }
-.Faqs h2 {
-  margin-top: 10vh;
-  margin-left: 10vh;
-  margin-right: 10vh;
-  font-family: "sharpSans-Semibold";
-  text-align: left;
-  font-size: 26px;
+
+.ImageSlider img {
+  transition: 0.3s;
 }
-.Faqs h3 {
-  margin-top: 6vh;
-  margin-right: 10vh;
-  font-family: "sharpSans-Medium";
-  text-align: left;
-  font-size: 22px;
-} */
+
+.ImageSlider img:hover {
+  transition: 0.3s;
+  opacity: 0.5;
+}
 
 /* NAVBAR */
 .Navbar {

@@ -7,8 +7,11 @@
     "node": "10.16.0"
   },
   "dependencies": {
+    "@material-ui/core": "^4.2.1",
     "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
     "material-icons-react": "^1.0.4",
+    "origen-react-instagram-feed": "0.0.3",
     "pure-react-carousel": "^1.21.1",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",

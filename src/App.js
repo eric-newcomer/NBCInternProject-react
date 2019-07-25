@@ -6,11 +6,9 @@ import Flip from 'react-reveal';
 import Banner from './components/Banner';
 import Overview from './components/Overview';
 import Clickable from './components/Clickable';
-import Instagram from './components/Instagram';
-import Experiences from './components/Experiences';
 import Brands from './components/Brands';
 import Faqs from './components/Faqs';
-
+import ImageSlider from './components/ImageSlider';
 
 class App extends Component {
   render() {
@@ -20,8 +18,10 @@ class App extends Component {
             <Banner />  
             <LightSpeed left>
               <Overview />  
-            </LightSpeed> 
+            </LightSpeed>
+            <ImageSlider />
             <Clickable />  
+            
             <Flip>
               <Brands />
             </Flip>
