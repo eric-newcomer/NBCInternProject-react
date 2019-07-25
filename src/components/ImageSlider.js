@@ -20,7 +20,7 @@ class ImageSlider extends Component {
             <div className="ImageSlider"> 
                 <CarouselProvider
                     naturalSlideWidth={100}
-                    naturalSlideHeight={70}
+                    naturalSlideHeight={80}
                     totalSlides={9}
                     interval={3000}
                     isPlaying={true}
