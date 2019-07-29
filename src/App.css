@@ -366,6 +366,7 @@ h3 {
   left: 50%;
   transform: translate(-50%,-50%);
 }
+
 .display-block {
   display: block;
 }
@@ -375,7 +376,9 @@ h3 {
 }
 
 #iconCol {
-  align-items: center;
+  align-items: center !important;
+  text-align: center !important;
+  align-content: center;
 }
 
 /* Experiences */
