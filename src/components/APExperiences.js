@@ -6,6 +6,7 @@ import mtran from './images/mtran.jpg';
 import luke from './images/luke.jpg';
 import anders from './images/anders.jpg';
 import donny from './images/donny.jpg';
+import gabe from './images/gabe.jpg';
 
 // import useState from "react-dom";
 
@@ -318,17 +319,24 @@ class APExperiences extends Component {
               {/* FL MODAL */}
               <Modal show={this.state.showFLModal} onHide={this.toggleFL} centered>
                 <Modal.Header closeButton>
-                  <Modal.Title>Associate Profile: Miami, Florida</Modal.Title>
+                  <Modal.Title>Associate Profile: Orlando, Florida</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                   <Container>
                     <Row>
                       <Col>
-                        <p><img width="*" height="200" src={mtran}/></p>
-                        <p>Name: Marcie Tran</p>
-                        <p>Field: Software Development</p>
-                        <p>Department: Media Engineering</p>
-                        <p>Integrated machine learning APIs into existing post-production workflows to enable automated video and audio analysis, such as facial recognition and video transcription.</p>
+                        <p><img width="*" height="200" src={gabe}/></p>
+                        <p>Name: Gabe Gamez</p>
+                        <p>Program: Technology</p>
+                        <p>Team: Advanced Resort Technology</p>
+                        <p>
+                          Description: Worked with the Television Distribution business to create a 
+                          Master Data Management solution for all NBCU Film and TV titles. 
+                          Goal was to streamline and track metadata to improve workflow processes with 
+                          best practices in mind. Engagement with business leads to determine 
+                          new governance workflow processes and improvement for future state. Learning 
+                          about various applications and mapping attributes from their databases to a new one.
+                        </p>
                       </Col>
                     </Row>
                   </Container>
