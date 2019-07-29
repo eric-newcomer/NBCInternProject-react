@@ -1,5 +1,12 @@
 import React, { Component, useState } from 'react';
 import { Container, Row, Col, Modal, Button } from 'react-bootstrap';
+import USAMap from "react-usa-map";
+
+import mtran from './images/mtran.jpg';
+import luke from './images/luke.jpg';
+import anders from './images/anders.jpg';
+import donny from './images/donny.jpg';
+
 // import useState from "react-dom";
 
 function ITModal() {
@@ -11,21 +18,28 @@ function ITModal() {
     return (
       <>
         <Button variant="primary" onClick={handleShow}>
-          Information Technology
+          Englewood Cliffs, NJ
         </Button>
   
         <Modal show={show} onHide={handleClose} centered>
           <Modal.Header closeButton>
-            <Modal.Title>Information Technology Locations</Modal.Title>
+            <Modal.Title>Associate Experiences: Englewood Cliffs, NJ</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            The Information Technology organization architects and supports all technical infrastructure across NBCUniversal properties. Rotations are focused on data analytics and cyber security, with opportunities to build skills across software development, data science, security analysis, and platform engineering. Associates will also gain technical project management experience.
-              <h5>Dry Creek, Colorado</h5>
-              <h5>Los Angeles, California</h5>
-              <h5>New York City, New York</h5>
+            <Container>
+              <Row>
+                <Col>
+                  <p><img width="*" height="200" src={mtran}/></p>
+                  <p>Name: Marcie Tran</p>
+                  <p>Field: Software Development</p>
+                  <p>Department: Media Engineering</p>
+                  <p>Integrated machine learning APIs into existing post-production workflows to enable automated video and audio analysis, such as facial recognition and video transcription.</p>
+                </Col>
+              </Row>
+            </Container>
             </Modal.Body>
           <Modal.Footer>
-            <Button variant="primary" onClick={handleClose}>
+            <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose}>
               Close
             </Button>
           </Modal.Footer>
@@ -51,10 +65,17 @@ function EngModal() {
             <Modal.Title>Engineering Locations</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-              Engineering teams focus on building, customizing, and supporting media pipelines that services business units across the company. Rotations typically focus on encoding & video workflows in Media Engineering, migrating services to cloud infrastructure in Cloud Engineering, and Production Engineering in LA & 30 Rock studios.
-              <h5>Dry Creek, Colorado</h5>
-              <h5>Los Angeles, California</h5>
-              <h5>New York City, New York</h5>
+            <Container>
+                <Row>
+                  <Col>
+                    <p><img width="*" height="200" src={mtran}/></p>
+                    <p>Name: Marcie Tran</p>
+                    <p>Field: Software Development</p>
+                    <p>Department: Media Engineering</p>
+                    <p>Integrated machine learning APIs into existing post-production workflows to enable automated video and audio analysis, such as facial recognition and video transcription.</p>
+                  </Col>
+                </Row>
+              </Container>
             </Modal.Body>
             <Modal.Footer>
             <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} block>
@@ -99,43 +120,260 @@ function GMOModal() {
 }
 
 class APExperiences extends Component {
-    render () {
-        return (
-            <div className="APExperiences" id="Experiences">
-                <h1>Associate Experiences</h1>
-                <Container>
+  constructor(props) {
+    super(props);
+
+    this.state = { 
+      showNJModal: false,
+      showNYModal: false,
+      showCAModal: false,
+      showCOModal: false,
+      showFLModal: false,
+    };
+  }
+
+  toggleNJ = () => {
+    this.setState({
+      showNJModal: !this.state.showNJModal
+    });
+  }
+
+  toggleNY = () => {
+    this.setState({
+      showNYModal: !this.state.showNYModal
+    });
+  }
+
+  toggleCA = () => {
+    this.setState({
+      showCAModal: !this.state.showCAModal
+    });
+  }
+
+  toggleCO = () => {
+    this.setState({
+      showCOModal: !this.state.showCOModal
+    });
+  }
+
+  toggleFL = () => {
+    this.setState({
+      showFLModal: !this.state.showFLModal
+    });
+  }
+
+  mapHandler = (event) => {
+    if (event.target.dataset.name === "NJ") {
+          this.toggleNJ();
+    }
+    else if (event.target.dataset.name === "NY") {
+      this.toggleNY();
+    }
+    else if (event.target.dataset.name === "CA") {
+      this.toggleCA();
+    }
+    else if (event.target.dataset.name === "CO") {
+      this.toggleCO();
+    }
+    else if (event.target.dataset.name === "FL") {
+      this.toggleFL();
+    }
+  };  
+
+  statesCustomConfig = () => {
+    return {
+      "NJ": {
+        fill: "#896EB1"
+      },
+      "NY": {
+        fill: "#896EB1"
+      },
+      "CA": {
+        fill: "#896EB1"
+      },
+      "CO": {
+        fill: "#896EB1"
+      },
+      "FL": {
+        fill: "#896EB1"
+      },
+    };
+  };
+
+
+  render () {
+      return (
+          <div className="APExperiences" id="Experiences">
+              <h1>Associate Experiences</h1>
+              <h2>Hear from some of our associates across the country.</h2>
+              <USAMap customize={this.statesCustomConfig()} onClick={this.mapHandler}/>
+              {/* NJ MODAL */}
+              <Modal size="lg" show={this.state.showNJModal} onHide={this.toggleNJ} centered>
+                <Modal.Header closeButton>
+                  <Modal.Title>Associate Profile: Englewood Cliffs, New Jersey</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <Container>
                     <Row>
-                    <Col> {/* LEFT COLUMN */} 
-                            <h2>Hear From Our Associates</h2>
-                            <br/>
-                            <div id="intProjDesc">
-                                <h5>Marcie Tran, Software Development, Media Engineering – Englewood Cliffs, NJ</h5>
-                                <p>Integrated machine learning APIs into existing post-production workflows to enable automated video and audio analysis, such as facial recognition and video transcription.</p>
-
-                                <h5>Tyler Schad, NOC Expansion, On-Air Operations-Englewood Cliffs, NJ</h5>
-                                <p>Expanded On-Air operational capacity and refreshed the Network Operation Center & communal employee spaces.</p>
-
-                                <h5>Nick Polsin, Information Security, Sports Business-Englewood Cliffs, NJ</h5>
-                                <p>Responsible for leading the deployment of an endpoint patching/systems management solution throughout the NBC Sports teams, and starting up consistent vulnerability scans throughout the team's supported businesses (Sports, Owned Stations, RSNs, Golf, etc.). Also, managed inventory of loaned hardware for company travel and reporting on the patching status of the various Sports businesses. </p>
-                            </div>
-                    </Col>
-                    <div className="border-ap"></div>
-                    <Col> {/* RIGHT COLUMN */}
-                        <h2>Experience by Location</h2>
-                        <div className="expByDepartment">
-                            <ITModal />
-                        </div>
-                        <div className="expByDepartment">
-                            <EngModal />
-                        </div>
-                        <div className="expByDepartment">
-                            <GMOModal />
-                        </div>
-                    </Col>
+                      <Col>
+                        <p><img width="*" height="200" src={mtran}/></p>
+                        <p>Name: Marcie Tran</p>
+                        <p>Program: Technology</p>
+                        <p>Team: Media Engineering</p>
+                        <p>Field: Software Development</p>
+                        <p>Description: Integrated machine learning APIs into existing post-production workflows to enable automated video and audio analysis, such as facial recognition and video transcription.</p>
+                      </Col>
                     </Row>
-                </Container>
-            </div>
-        );
+                  </Container>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={this.toggleNJ} block>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+
+              {/* NY MODAL */}
+              <Modal size="lg" show={this.state.showNYModal} onHide={this.toggleNY} centered>
+                <Modal.Header closeButton>
+                  <Modal.Title>Associate Profile: New York City, New York</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <Container>
+                    <Row>
+                      <Col>
+                        <p><img width="*" height="200" src={luke}/></p>
+                        <p>Name: Luke Casino</p>
+                        <p>Program: Engineering</p>
+                        <p>Team: Production Engineering</p>
+                        <p>Description: Designed and managed implementation of various productions around 30 Rock. Implemented new video source in control room to help create new Virtual Machine system 
+                          for running Grass Valley Router application. Helped design new room for the 31/32 floor which houses all graphics consoles and robotics/video shading consoles. 
+                          Routinely used AutoCAD, Visio design and IT hardware config.</p>
+                      </Col>
+                    </Row>
+                  </Container>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={this.toggleNY} block>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+
+              {/* CA MODAL */}
+              <Modal  size="lg" show={this.state.showCAModal} onHide={this.toggleCA} centered>
+                <Modal.Header closeButton>
+                  <Modal.Title>Associate Profile: Universal City, California</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <Container>
+                    <Row>
+                      <Col>
+                        <p><img width="*" height="200" src={anders}/></p>
+                        <p>Name: Anders Simmeth</p>
+                        <p>Program: Technology</p>
+                        <p>Team: Filmed Entertainment IT</p>
+                        <p>Field: Data Science</p>
+                        <p>Description: Worked with a team of data scientists to build models according to our research team’s needs and requirements. 
+                          Mainly focused on two models. The first was a random forest model that predicted first weekend box office sales for upcoming releases. 
+                          The second was a clustering model used to determine a list of comparable films for upcoming releases.</p>
+                      </Col>
+                    </Row>
+                  </Container>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={this.toggleCA} block>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+
+              {/* CO MODAL */}
+              <Modal  size="lg" show={this.state.showCOModal} onHide={this.toggleCO} centered>
+                <Modal.Header closeButton>
+                  <Modal.Title>Associate Profile: Dry Creek, Colorado</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <Container>
+                    <Row>
+                      <Col>
+                        <p><img width="*" height="200" src={donny}/></p>
+                        <p>Name: Donny Ta</p>
+                        <p>Program: Engineering</p>
+                        <p>Team: Media Technology Engineering</p>
+                        <p>Description: Oversaw the new MOC. Set up work stations, deployed apps using Ansible, ensured work stations were ready for Operations to test/use 
+                          (networking, hardware, etc.) Assisted operations team in solving media issues involving post-production (file specs, audio normalization, playback issues, etc.), 
+                          storage, or delivery.</p>
+                      </Col>
+                    </Row>
+                  </Container>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={this.toggleCO} block>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+
+              {/* FL MODAL */}
+              <Modal show={this.state.showFLModal} onHide={this.toggleFL} centered>
+                <Modal.Header closeButton>
+                  <Modal.Title>Associate Profile: Miami, Florida</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <Container>
+                    <Row>
+                      <Col>
+                        <p><img width="*" height="200" src={mtran}/></p>
+                        <p>Name: Marcie Tran</p>
+                        <p>Field: Software Development</p>
+                        <p>Department: Media Engineering</p>
+                        <p>Integrated machine learning APIs into existing post-production workflows to enable automated video and audio analysis, such as facial recognition and video transcription.</p>
+                      </Col>
+                    </Row>
+                  </Container>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={this.toggleFL} block>
+                    Close
+                  </Button>
+                </Modal.Footer>
+              </Modal>
+
+
+              {/* <Container>
+                  <Row>
+                  <Col> 
+                      <h2>Hear From Our Associates</h2>
+                      <br/>
+                      <div id="intProjDesc">
+                          <h5>Marcie Tran, Software Development, Media Engineering – Englewood Cliffs, NJ</h5>
+                          <p>Integrated machine learning APIs into existing post-production workflows to enable automated video and audio analysis, such as facial recognition and video transcription.</p>
+
+                          <h5>Tyler Schad, NOC Expansion, On-Air Operations-Englewood Cliffs, NJ</h5>
+                          <p>Expanded On-Air operational capacity and refreshed the Network Operation Center & communal employee spaces.</p>
+
+                          <h5>Nick Polsin, Information Security, Sports Business-Englewood Cliffs, NJ</h5>
+                          <p>Responsible for leading the deployment of an endpoint patching/systems management solution throughout the NBC Sports teams, and starting up consistent vulnerability scans throughout the team's supported businesses (Sports, Owned Stations, RSNs, Golf, etc.). Also, managed inventory of loaned hardware for company travel and reporting on the patching status of the various Sports businesses. </p>
+                      </div>
+                  </Col>
+                  <div className="border-ap"></div>
+                  <Col> 
+                      <h2>Experience by Location</h2>
+                      <div className="expByDepartment">
+                          <ITModal />
+                      </div>
+                      <div className="expByDepartment">
+                          <EngModal />
+                      </div>
+                      <div className="expByDepartment">
+                          <GMOModal />
+                      </div>
+                  </Col>
+                  </Row>
+              </Container> */}
+          </div>
+      );
     }
 }
 

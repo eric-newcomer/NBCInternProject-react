@@ -167,7 +167,7 @@ h3 {
   font-size: 8vw;
   line-height: 1;
   font-family: "sharpSans-Bold";
-  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+  /* text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF; */
   text-align: left;
   margin-left: 8vw;
 }
@@ -175,7 +175,7 @@ h3 {
   font-family: "sharpSans-Light";
   font-size: 4vw;
   line-height: 1;
-  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+  /* text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF; */
   text-align: left;
   margin-left: 8vw;
 }
@@ -384,24 +384,36 @@ h3 {
 /* Experiences */
 .APExperiences {
 }
+path {
+  pointer-events: all;
+}
+path:hover {
+  opacity: 0.50;
+  cursor: pointer;
+}
 .APExperiences h1 {
   margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
   font-family: "sharpSans-Bold";
 }
 .APExperiences h2 {
   font-family: "sharpSans-Light";
+  margin-bottom: 5vh;
 }
 .APExperiences h5, p {
   font-family: "sharpSans-Light";
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   margin-left: 6vh;
 }
-.APExperiences p {
+h5 {
+  margin-left: 6vh;
+  margin-bottom: 4vh;
+}
+/* .APExperiences p {
   line-height: 1.5;
   margin-bottom: 6vh;
-}
+} */
 .btn-exp {
   background-color: #896EB1;
   border: none;
@@ -423,23 +435,6 @@ h3 {
 .expByDepartment {
   margin-top: 10vh;
   align-content: center;
-}
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 60vh;
-  background: rgba(0, 0, 0, 0.6);
-}
-.modal-main {
-  position: fixed;
-  background: white;
-  width: 50%;
-  height: 90%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
 }
 .display-block {
   display: block;

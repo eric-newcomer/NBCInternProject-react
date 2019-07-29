@@ -25,6 +25,7 @@
     "react-slick": "^0.24.0",
     "react-slideshow-image": "^1.2.0",
     "react-tabs": "^3.0.0",
+    "react-usa-map": "^1.4.0",
     "styled-components": "^4.3.2",
     "supertest": "^4.0.2"
   },

@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import { Slide, Fade } from 'react-slideshow-image';
 import logo_tagline from './images/NBCU_Logo_Tagline.svg';
-import la from './images/unicity3.jpg';
-import ny from './images/ny.jpg';
+import la from './images/LA1.jpg';
+import ny from './images/30rock1.jpg';
 import ny2 from './images/ny2.jpg';
 import ec from './images/ec.jpg';
 import ec2 from './images/NOC.jpg';
 
 const fadeImages = [
     la,
-    ny2,
+    ny,
     ec,
-    ny, 
+    ny2, 
     ec2,
 ];
   
