@@ -70,6 +70,11 @@
     margin-right: 0 !important;
   }
 
+  /* AP EXPERIENCES MOBILE */
+  .USA {
+    width: 30 !important;
+  }
+
   /* BRANDS MOBILE */
 
   .Brands img {
@@ -109,6 +114,7 @@
 
 p {
   font-family: "sharpSans-Medium";
+  text-align: left !important;
 }
 
 /* BANNER */

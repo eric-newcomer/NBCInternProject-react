@@ -8,116 +8,91 @@ import anders from './images/anders.jpg';
 import donny from './images/donny.jpg';
 import gabe from './images/gabe.jpg';
 
-// import useState from "react-dom";
-
 function ITModal() {
-    const [show, setShow] = useState(false);
-  
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-  
-    return (
-      <>
-        <Button variant="primary" onClick={handleShow}>
-          Englewood Cliffs, NJ
-        </Button>
-  
-        <Modal show={show} onHide={handleClose} centered>
-          <Modal.Header closeButton>
-            <Modal.Title>Associate Experiences: Englewood Cliffs, NJ</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <Container>
-              <Row>
-                <Col>
-                  <p><img width="*" height="200" src={mtran}/></p>
-                  <p>Name: Marcie Tran</p>
-                  <p>Field: Software Development</p>
-                  <p>Department: Media Engineering</p>
-                  <p>Integrated machine learning APIs into existing post-production workflows to enable automated video and audio analysis, such as facial recognition and video transcription.</p>
-                </Col>
-              </Row>
-            </Container>
-            </Modal.Body>
-          <Modal.Footer>
-            <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose}>
-              Close
-            </Button>
-          </Modal.Footer>
-        </Modal>
-      </>
-    );
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  return (
+    <>
+      <Button className="mr-auto ml-auto mt-2 mb-2" variant="primary" onClick={handleShow}>
+        Information Technology
+      </Button>
+
+      <Modal show={show} onHide={handleClose} centered>
+        <Modal.Header closeButton>
+          <Modal.Title>Information Technology</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          Information Technology provides strategic guidance, innovative technological solutions, customer service and information security to business units, brands and employees across NBCUniversal. NBCUniversal's IT teams simplify and improve our clients’ experiences with innovative technology, while developing solutions that transform how we shape the future of media and entertainment.
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="primary" className="mr-auto ml-auto" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
+    </>
+  );
 }
 
 function EngModal() {
-    const [show, setShow] = useState(false);
-  
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-  
-    return (
-      <>
-        <Button variant="primary" onClick={handleShow}>
-            Engineering
-        </Button>
-  
-        <Modal show={show} onHide={handleClose} centered>
-          <Modal.Header closeButton>
-            <Modal.Title>Engineering Locations</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <Container>
-                <Row>
-                  <Col>
-                    <p><img width="*" height="200" src={mtran}/></p>
-                    <p>Name: Marcie Tran</p>
-                    <p>Field: Software Development</p>
-                    <p>Department: Media Engineering</p>
-                    <p>Integrated machine learning APIs into existing post-production workflows to enable automated video and audio analysis, such as facial recognition and video transcription.</p>
-                  </Col>
-                </Row>
-              </Container>
-            </Modal.Body>
-            <Modal.Footer>
-            <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} block>
-              Close
-            </Button>
-          </Modal.Footer>
-        </Modal>
-      </>
-    );
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  return (
+    <>
+      <Button className="mr-auto ml-auto mt-2 mb-2" variant="primary" onClick={handleShow}>
+          Engineering
+      </Button>
+
+      <Modal show={show} onHide={handleClose} centered>
+        <Modal.Header closeButton>
+          <Modal.Title>Engineering</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          Engineering is responsible for the design, implementation and support of all technology, software and infrastructure for Global Media Operations and Production Operations, while ensuring reliable content delivery and linear origination across NBCUniversal’s operations.
+          </Modal.Body>
+        <Modal.Footer>
+          <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} block>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
+    </>
+  );
 }
 
 function GMOModal() {
-    const [show, setShow] = useState(false);
-  
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-  
-    return (
-      <>
-        <Button className="mr-auto ml-auto" variant="primary" onClick={handleShow}>
-        Global Media Operations
-        </Button>
-  
-        <Modal show={show} onHide={handleClose} centered>
-          <Modal.Header closeButton>
-            <Modal.Title>Global Media Operations Locations</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            Global Media Operations is responsible for building and supporting our content supply chain, globally delivering to TV screens and all other viewing platforms. Associates are deployed to high-priority projects across media fulfillment, distribution, and content management. Rotations have an emphasis on business analysis, workflow optimization, and project/product management.
-              <h2>Dry Creek, Colorado</h2>
-              <h2>Los Angeles, California</h2>
-              <h2>New York City, New York</h2>
-            </Modal.Body>
-            <Modal.Footer>
-            <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} block>
-              Close
-            </Button>
-          </Modal.Footer>
-        </Modal>
-      </>
-    );
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  return (
+    <>
+      <Button className="mr-auto ml-auto mt-2 mb-2" variant="primary" onClick={handleShow}>
+      Global Media Operations
+      </Button>
+
+      <Modal show={show} onHide={handleClose} centered>
+        <Modal.Header closeButton>
+          <Modal.Title>Global Media Operations</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          Global Media Operations is responsible for building and supporting our content supply chain, globally delivering to TV screens and all other viewing platforms. 
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} block>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
+    </>
+  );
 }
 
 class APExperiences extends Component {
@@ -203,11 +178,26 @@ class APExperiences extends Component {
 
 
   render () {
+      console.log(window.innerWidth);
       return (
           <div className="APExperiences" id="Experiences">
               <h1>Associate Experiences</h1>
+              <h2>Our Associate Departments</h2>
+              <Container>
+                <Row>
+                  <Col><ITModal /></Col>
+                  <br />
+                  <Col><EngModal /></Col>
+                  <Col><GMOModal /></Col>
+                </Row>
+              </Container>
+              <br />
+              <br />
+
               <h2>Hear from some of our associates across the country.</h2>
-              <USAMap customize={this.statesCustomConfig()} onClick={this.mapHandler}/>
+              <USAMap className="USA" width={(window.innerWidth > 500) ? 1000:400} customize={this.statesCustomConfig()} onClick={this.mapHandler}/>
+  
+              <br/>
               {/* NJ MODAL */}
               <Modal size="lg" show={this.state.showNJModal} onHide={this.toggleNJ} centered>
                 <Modal.Header closeButton>
@@ -302,8 +292,8 @@ class APExperiences extends Component {
                         <p>Name: Donny Ta</p>
                         <p>Program: Engineering</p>
                         <p>Team: Media Technology Engineering</p>
-                        <p>Description: Oversaw the new MOC. Set up work stations, deployed apps using Ansible, ensured work stations were ready for Operations to test/use 
-                          (networking, hardware, etc.) Assisted operations team in solving media issues involving post-production (file specs, audio normalization, playback issues, etc.), 
+                        <p>Description: Oversaw the new MOC, set up work stations, deployed apps using Ansible, and ensured work stations were ready for Operations to test/use 
+                          (networking, hardware, etc). Assisted operations team in solving media issues involving post-production (file specs, audio normalization, playback issues, etc), 
                           storage, or delivery.</p>
                       </Col>
                     </Row>
