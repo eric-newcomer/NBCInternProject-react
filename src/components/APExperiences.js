@@ -28,7 +28,7 @@ function ITModal() {
           Information Technology provides strategic guidance, innovative technological solutions, customer service and information security to business units, brands and employees across NBCUniversal. NBCUniversal's IT teams simplify and improve our clients’ experiences with innovative technology, while developing solutions that transform how we shape the future of media and entertainment.
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="primary" className="mr-auto ml-auto" onClick={handleClose}>
+          <Button variant="primary" className="mr-auto ml-auto" onClick={handleClose} style={{backgroundColor: "#74c25c"}}>
             Close
           </Button>
         </Modal.Footer>
@@ -57,7 +57,7 @@ function EngModal() {
           Engineering is responsible for the design, implementation and support of all technology, software and infrastructure for Global Media Operations and Production Operations, while ensuring reliable content delivery and linear origination across NBCUniversal’s operations.
           </Modal.Body>
         <Modal.Footer>
-          <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} block>
+          <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} style={{backgroundColor: "#74c25c"}}>
             Close
           </Button>
         </Modal.Footer>
@@ -86,7 +86,7 @@ function GMOModal() {
           Global Media Operations is responsible for building and supporting our content supply chain, globally delivering to TV screens and all other viewing platforms. 
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} block>
+          <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose}  style={{backgroundColor: "#74c25c"}}>
             Close
           </Button>
         </Modal.Footer>

@@ -1,12 +1,8 @@
 import React, { Component, useState } from 'react';
 import { Container, Row, Col, Modal, Button } from 'react-bootstrap';
-import ct from './images/ct.png';
-import ct2 from './images/ct2.png';
 import ct3 from './images/ct3.png';
 import NYicon from './images/NYicon.png';
 import LAicon from './images/LAiconFINAL.png';
-import NJicon from './images/NJicon.png';
-import NJicon2 from './images/NJicon2.png';
 import NJicon3 from './images/NJicon3.png';
 import co from './images/co.png';
 
@@ -67,7 +63,7 @@ function ITModal() {
               </Container>
           </Modal.Body>
           <Modal.Footer>
-            <Button variant="primary" className="mr-auto ml-auto" onClick={handleClose}>
+            <Button variant="primary" className="mr-auto ml-auto btn" onClick={handleClose} style={{backgroundColor: "#26ace2"}}>
               Close
             </Button>
           </Modal.Footer>
@@ -130,7 +126,7 @@ function EngModal() {
               </Row>
             </Modal.Body>
           <Modal.Footer>
-            <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} block>
+            <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose}  style={{backgroundColor: "#26ace2"}}>
               Close
             </Button>
           </Modal.Footer>
@@ -184,7 +180,7 @@ function GMOModal() {
               </Row>  
           </Modal.Body>
           <Modal.Footer>
-            <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose} block>
+            <Button variant="primary" size="lg" className="mr-auto ml-auto" onClick={handleClose}  style={{backgroundColor: "#26ace2"}}>
               Close
             </Button>
           </Modal.Footer>

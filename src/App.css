@@ -319,7 +319,8 @@ h3 {
 
 
 /* Experiences */
-.Experiences {
+.Experiences .btn {
+  background-color: #26ace2;
 }
 .Experiences h1 {
   margin-top: 10vh;
@@ -340,7 +341,7 @@ h3 {
   padding: 12px 32px;
   text-align: center;
   font-size: 16px;
-  opacity: 0.6;
+  opacity: 0.7;
   transition: 0.3s;
   width: 30vh;
   margin-top: 2vh;
@@ -388,7 +389,8 @@ h3 {
 }
 
 /* Experiences */
-.APExperiences {
+.APExperiences .btn {
+  background-color: #74c25c;
 }
 path {
   pointer-events: all;
@@ -427,7 +429,7 @@ h5 {
   padding: 12px 32px;
   text-align: center;
   font-size: 16px;
-  opacity: 0.6;
+  opacity: 0.7;
   transition: 0.3s;
   width: 30vh;
   margin-top: 2vh;
